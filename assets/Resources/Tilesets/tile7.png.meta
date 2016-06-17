@@ -1,0 +1,1779 @@
+fileFormatVersion: 2
+guid: f9890622abd7c5a4cb7f591061e0eb2f
+timeCreated: 1465355870
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tile7_0
+    21300002: tile7_1
+    21300004: tile7_2
+    21300006: tile7_3
+    21300008: tile7_4
+    21300010: tile7_5
+    21300012: tile7_6
+    21300014: tile7_7
+    21300016: tile7_8
+    21300018: tile7_9
+    21300020: tile7_10
+    21300022: tile7_11
+    21300024: tile7_12
+    21300026: tile7_13
+    21300028: tile7_14
+    21300030: tile7_15
+    21300032: tile7_16
+    21300034: tile7_17
+    21300036: tile7_18
+    21300038: tile7_19
+    21300040: tile7_20
+    21300042: tile7_21
+    21300044: tile7_22
+    21300046: tile7_23
+    21300048: tile7_24
+    21300050: tile7_25
+    21300052: tile7_26
+    21300054: tile7_27
+    21300056: tile7_28
+    21300058: tile7_29
+    21300060: tile7_30
+    21300062: tile7_31
+    21300064: tile7_32
+    21300066: tile7_33
+    21300068: tile7_34
+    21300070: tile7_35
+    21300072: tile7_36
+    21300074: tile7_37
+    21300076: tile7_38
+    21300078: tile7_39
+    21300080: tile7_40
+    21300082: tile7_41
+    21300084: tile7_42
+    21300086: tile7_43
+    21300088: tile7_44
+    21300090: tile7_45
+    21300092: tile7_46
+    21300094: tile7_47
+    21300096: tile7_48
+    21300098: tile7_49
+    21300100: tile7_50
+    21300102: tile7_51
+    21300104: tile7_52
+    21300106: tile7_53
+    21300108: tile7_54
+    21300110: tile7_55
+    21300112: tile7_56
+    21300114: tile7_57
+    21300116: tile7_58
+    21300118: tile7_59
+    21300120: tile7_60
+    21300122: tile7_61
+    21300124: tile7_62
+    21300126: tile7_63
+    21300128: tile7_64
+    21300130: tile7_65
+    21300132: tile7_66
+    21300134: tile7_67
+    21300136: tile7_68
+    21300138: tile7_69
+    21300140: tile7_70
+    21300142: tile7_71
+    21300144: tile7_72
+    21300146: tile7_73
+    21300148: tile7_74
+    21300150: tile7_75
+    21300152: tile7_76
+    21300154: tile7_77
+    21300156: tile7_78
+    21300158: tile7_79
+    21300160: tile7_80
+    21300162: tile7_81
+    21300164: tile7_82
+    21300166: tile7_83
+    21300168: tile7_84
+    21300170: tile7_85
+    21300172: tile7_86
+    21300174: tile7_87
+    21300176: tile7_88
+    21300178: tile7_89
+    21300180: tile7_90
+    21300182: tile7_91
+    21300184: tile7_92
+    21300186: tile7_93
+    21300188: tile7_94
+    21300190: tile7_95
+    21300192: tile7_96
+    21300194: tile7_97
+    21300196: tile7_98
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 190
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tile7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 52.099976}
+        - {x: -51.5, y: 36.099976}
+        - {x: -51.5, y: -50.900024}
+        - {x: 51.5, y: -50.900024}
+        - {x: 51.5, y: 52.099976}
+    - name: tile7_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 52.099976}
+        - {x: -51.100006, y: -50.900024}
+        - {x: 51.899994, y: -50.900024}
+        - {x: 51.899994, y: 52.099976}
+    - name: tile7_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.099976}
+        - {x: -51.200012, y: -50.900024}
+        - {x: 52.799988, y: -50.900024}
+        - {x: 52.799988, y: 39.099976}
+        - {x: 38.799988, y: 52.099976}
+    - name: tile7_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.30002, y: 52.099976}
+        - {x: -51.30002, y: 44.099976}
+        - {x: -51.30002, y: -50.900024}
+        - {x: 51.69998, y: -50.900024}
+        - {x: 51.69998, y: 52.099976}
+    - name: tile7_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.099976}
+        - {x: -50.900024, y: -50.900024}
+        - {x: 52.099976, y: -50.900024}
+        - {x: 52.099976, y: 52.099976}
+    - name: tile7_5
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 52.099976}
+        - {x: -51.00003, y: -50.900024}
+        - {x: 52.99997, y: -50.900024}
+        - {x: 52.99997, y: 52.099976}
+    - name: tile7_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 52.099976}
+        - {x: -51.100037, y: -50.900024}
+        - {x: 51.899963, y: -50.900024}
+        - {x: 51.899963, y: 52.099976}
+    - name: tile7_7
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.099976}
+        - {x: -51.200012, y: -50.900024}
+        - {x: 52.799988, y: -50.900024}
+        - {x: 52.799988, y: 52.099976}
+    - name: tile7_8
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 52.099976}
+        - {x: -51.30005, y: -50.900024}
+        - {x: 51.69995, y: -50.900024}
+        - {x: 51.69995, y: 52.099976}
+    - name: tile7_9
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1710
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.099976}
+        - {x: -50.900024, y: -50.900024}
+        - {x: 52.099976, y: -50.900024}
+        - {x: 52.099976, y: 52.099976}
+    - name: tile7_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 51.69995}
+        - {x: -51.5, y: -51.30005}
+        - {x: 51.5, y: -51.30005}
+        - {x: 51.5, y: 51.69995}
+    - name: tile7_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 51.69995}
+        - {x: -51.100006, y: -51.30005}
+        - {x: 51.899994, y: -51.30005}
+        - {x: 51.899994, y: 51.69995}
+    - name: tile7_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.69995}
+        - {x: -51.200012, y: -51.30005}
+        - {x: 52.799988, y: -51.30005}
+        - {x: 52.799988, y: 51.69995}
+    - name: tile7_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 51.69995}
+        - {x: -51.30002, y: -51.30005}
+        - {x: 51.69998, y: -51.30005}
+        - {x: 51.69998, y: 51.69995}
+    - name: tile7_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.69995}
+        - {x: -50.900024, y: -51.30005}
+        - {x: 52.099976, y: -51.30005}
+        - {x: 52.099976, y: 51.69995}
+    - name: tile7_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 51.69995}
+        - {x: -51.00003, y: -51.30005}
+        - {x: 52.99997, y: -51.30005}
+        - {x: 52.99997, y: 51.69995}
+    - name: tile7_16
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 51.69995}
+        - {x: -51.100037, y: -51.30005}
+        - {x: 51.899963, y: -51.30005}
+        - {x: 51.899963, y: 51.69995}
+    - name: tile7_17
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.69995}
+        - {x: -51.200012, y: -51.30005}
+        - {x: 52.799988, y: -51.30005}
+        - {x: 52.799988, y: 51.69995}
+    - name: tile7_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 51.69995}
+        - {x: -51.30005, y: -51.30005}
+        - {x: 51.69995, y: -51.30005}
+        - {x: 51.69995, y: 51.69995}
+    - name: tile7_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1520
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.69995}
+        - {x: -50.900024, y: -51.30005}
+        - {x: 52.099976, y: -51.30005}
+        - {x: 52.099976, y: 51.69995}
+    - name: tile7_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 52.799988}
+        - {x: -51.5, y: -34.200012}
+        - {x: -42.5, y: -51.200012}
+        - {x: 51.5, y: -51.200012}
+        - {x: 51.5, y: 52.799988}
+    - name: tile7_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 52.799988}
+        - {x: -51.100006, y: -51.200012}
+        - {x: 51.899994, y: -51.200012}
+        - {x: 51.899994, y: 52.799988}
+    - name: tile7_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.799988}
+        - {x: -51.200012, y: -51.200012}
+        - {x: 36.799988, y: -51.200012}
+        - {x: 42.799988, y: -49.200012}
+        - {x: 52.799988, y: -34.200012}
+        - {x: 52.799988, y: 52.799988}
+    - name: tile7_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 52.799988}
+        - {x: -51.30002, y: -50.200012}
+        - {x: -40.30002, y: -51.200012}
+        - {x: 51.69998, y: -51.200012}
+        - {x: 51.69998, y: 52.799988}
+    - name: tile7_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.799988}
+        - {x: -50.900024, y: -51.200012}
+        - {x: 52.099976, y: -51.200012}
+        - {x: 52.099976, y: 52.799988}
+    - name: tile7_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 52.799988}
+        - {x: -51.00003, y: -51.200012}
+        - {x: 52.99997, y: -51.200012}
+        - {x: 52.99997, y: 52.799988}
+    - name: tile7_26
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: -51.200012}
+        - {x: 51.899963, y: -51.200012}
+        - {x: 51.899963, y: -48.200012}
+        - {x: -51.100037, y: -48.200012}
+      - - {x: -51.100037, y: 52.799988}
+        - {x: -51.100037, y: 49.799988}
+        - {x: 51.899963, y: 49.799988}
+        - {x: 51.899963, y: 52.799988}
+    - name: tile7_27
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: -51.200012}
+        - {x: 52.799988, y: -51.200012}
+        - {x: 52.799988, y: -47.200012}
+        - {x: -51.200012, y: -48.200012}
+      - - {x: -51.200012, y: 52.799988}
+        - {x: -51.200012, y: 49.799988}
+        - {x: 52.799988, y: 49.799988}
+        - {x: 52.799988, y: 52.799988}
+    - name: tile7_28
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 52.799988}
+        - {x: -51.30005, y: 49.799988}
+        - {x: -46.30005, y: 48.799988}
+        - {x: -51.30005, y: -33.200012}
+        - {x: -51.30005, y: -51.200012}
+        - {x: 51.69995, y: -51.200012}
+        - {x: 51.69995, y: 52.799988}
+    - name: tile7_29
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1330
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.799988}
+        - {x: -50.900024, y: -51.200012}
+        - {x: 52.099976, y: -51.200012}
+        - {x: 52.099976, y: 52.799988}
+    - name: tile7_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 51.899963}
+        - {x: -51.5, y: 39.899963}
+        - {x: -51.5, y: -41.100037}
+        - {x: -35.5, y: -51.100037}
+        - {x: 51.5, y: -51.100037}
+        - {x: 51.5, y: 51.899963}
+    - name: tile7_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 51.899963}
+        - {x: -51.100006, y: -51.100037}
+        - {x: 51.899994, y: -51.100037}
+        - {x: 51.899994, y: 51.899963}
+    - name: tile7_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.899963}
+        - {x: -51.200012, y: -51.100037}
+        - {x: 52.799988, y: -51.100037}
+        - {x: 52.799988, y: 41.899963}
+        - {x: 38.799988, y: 51.899963}
+    - name: tile7_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.30002, y: 51.899963}
+        - {x: -51.30002, y: 37.899963}
+        - {x: -51.30002, y: -51.100037}
+        - {x: 51.69998, y: -51.100037}
+        - {x: 51.69998, y: 51.899963}
+    - name: tile7_34
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.899963}
+        - {x: -50.900024, y: -51.100037}
+        - {x: 52.099976, y: -51.100037}
+        - {x: 52.099976, y: 51.899963}
+    - name: tile7_35
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 51.899963}
+        - {x: -51.00003, y: -51.100037}
+        - {x: 52.99997, y: -51.100037}
+        - {x: 52.99997, y: 51.899963}
+    - name: tile7_36
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 51.899963}
+        - {x: -51.100037, y: -51.100037}
+        - {x: 51.899963, y: -51.100037}
+        - {x: 51.899963, y: 51.899963}
+    - name: tile7_37
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.899963}
+        - {x: -51.200012, y: -51.100037}
+        - {x: 52.799988, y: -51.100037}
+        - {x: 52.799988, y: 51.899963}
+    - name: tile7_38
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 51.899963}
+        - {x: -51.30005, y: -51.100037}
+        - {x: 51.69995, y: -51.100037}
+        - {x: 51.69995, y: 51.899963}
+    - name: tile7_39
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1140
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.899963}
+        - {x: -50.900024, y: -51.100037}
+        - {x: 52.099976, y: -51.100037}
+        - {x: 52.099976, y: 51.899963}
+    - name: tile7_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 52.99997}
+        - {x: -51.5, y: 37.99997}
+        - {x: -51.5, y: -51.00003}
+        - {x: 51.5, y: -51.00003}
+        - {x: 51.5, y: 52.99997}
+    - name: tile7_41
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.899994, y: 47.99997}
+        - {x: 51.899994, y: 49.99997}
+        - {x: 51.899994, y: 52.99997}
+        - {x: -51.100006, y: 52.99997}
+        - {x: -51.100006, y: -51.00003}
+        - {x: 51.899994, y: -51.00003}
+        - {x: 51.899994, y: 35.99997}
+        - {x: 45.899994, y: 45.99997}
+    - name: tile7_42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.99997}
+        - {x: -51.200012, y: -51.00003}
+        - {x: 52.799988, y: -51.00003}
+        - {x: 52.799988, y: 52.99997}
+    - name: tile7_43
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 52.99997}
+        - {x: -51.30002, y: -51.00003}
+        - {x: 51.69998, y: -51.00003}
+        - {x: 51.69998, y: 52.99997}
+    - name: tile7_44
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.99997}
+        - {x: -50.900024, y: -51.00003}
+        - {x: 52.099976, y: -51.00003}
+        - {x: 52.099976, y: 52.99997}
+    - name: tile7_45
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 52.99997}
+        - {x: -51.00003, y: -51.00003}
+        - {x: 52.99997, y: -51.00003}
+        - {x: 52.99997, y: 52.99997}
+    - name: tile7_46
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 52.99997}
+        - {x: -51.100037, y: -51.00003}
+        - {x: 51.899963, y: -51.00003}
+        - {x: 51.899963, y: 52.99997}
+    - name: tile7_47
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.99997}
+        - {x: -51.200012, y: -51.00003}
+        - {x: 52.799988, y: -51.00003}
+        - {x: 52.799988, y: 52.99997}
+    - name: tile7_48
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 52.99997}
+        - {x: -51.30005, y: -51.00003}
+        - {x: 51.69995, y: -51.00003}
+        - {x: 51.69995, y: 52.99997}
+    - name: tile7_49
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 950
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.99997}
+        - {x: -50.900024, y: -51.00003}
+        - {x: 52.099976, y: -51.00003}
+        - {x: 52.099976, y: 52.99997}
+    - name: tile7_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 52.099976}
+        - {x: -51.5, y: -32.900024}
+        - {x: -48.5, y: -42.900024}
+        - {x: -35.5, y: -50.900024}
+        - {x: 51.5, y: -50.900024}
+        - {x: 51.5, y: 52.099976}
+    - name: tile7_51
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 52.099976}
+        - {x: -51.100006, y: -50.900024}
+        - {x: 32.899994, y: -50.900024}
+        - {x: 39.899994, y: -47.900024}
+        - {x: 51.899994, y: -41.900024}
+        - {x: 51.899994, y: 52.099976}
+      - - {x: 47.899994, y: -49.900024}
+        - {x: 47.899994, y: -50.900024}
+        - {x: 51.899994, y: -50.900024}
+        - {x: 51.899994, y: -47.900024}
+        - {x: 49.899994, y: -47.900024}
+    - name: tile7_52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.099976}
+        - {x: -51.200012, y: -50.900024}
+        - {x: 52.799988, y: -50.900024}
+        - {x: 52.799988, y: 52.099976}
+    - name: tile7_53
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 52.099976}
+        - {x: -51.30002, y: -50.900024}
+        - {x: 51.69998, y: -50.900024}
+        - {x: 51.69998, y: 52.099976}
+    - name: tile7_54
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.099976}
+        - {x: -50.900024, y: -50.900024}
+        - {x: 52.099976, y: -50.900024}
+        - {x: 52.099976, y: 52.099976}
+    - name: tile7_55
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 52.099976}
+        - {x: -51.00003, y: -50.900024}
+        - {x: 52.99997, y: -50.900024}
+        - {x: 52.99997, y: 52.099976}
+    - name: tile7_56
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 52.099976}
+        - {x: -51.100037, y: -50.900024}
+        - {x: 51.899963, y: -50.900024}
+        - {x: 51.899963, y: -47.900024}
+        - {x: -48.100037, y: 52.099976}
+    - name: tile7_57
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: -50.900024}
+        - {x: 52.799988, y: -50.900024}
+        - {x: 52.799988, y: -47.900024}
+        - {x: -51.200012, y: -47.900024}
+    - name: tile7_58
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 52.099976}
+        - {x: -51.30005, y: -50.900024}
+        - {x: 51.69995, y: -50.900024}
+        - {x: 51.69995, y: 52.099976}
+    - name: tile7_59
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 760
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.099976}
+        - {x: -50.900024, y: -50.900024}
+        - {x: 52.099976, y: -50.900024}
+        - {x: 52.099976, y: 52.099976}
+    - name: tile7_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 2.6999817}
+        - {x: -43.5, y: -43.30002}
+        - {x: -51.5, y: -48.30002}
+        - {x: -51.5, y: -51.30002}
+        - {x: 51.5, y: -51.30002}
+        - {x: 51.5, y: 2.6999817}
+      - - {x: -14.5, y: 51.69998}
+        - {x: -13.5, y: 48.69998}
+        - {x: 51.5, y: 48.69998}
+        - {x: 51.5, y: 51.69998}
+    - name: tile7_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.899994, y: 51.69998}
+        - {x: 40.899994, y: 50.69998}
+        - {x: -51.100006, y: 3.6999817}
+        - {x: -51.100006, y: -51.30002}
+        - {x: 51.899994, y: -51.30002}
+        - {x: 51.899994, y: 51.69998}
+      - - {x: -51.100006, y: 51.69998}
+        - {x: -51.100006, y: 48.69998}
+        - {x: 12.899994, y: 48.69998}
+        - {x: 14.899994, y: 50.69998}
+        - {x: 14.899994, y: 51.69998}
+    - name: tile7_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.200012, y: 43.69998}
+        - {x: 52.799988, y: 48.69998}
+        - {x: 52.799988, y: 51.69998}
+        - {x: -51.200012, y: 51.69998}
+        - {x: -51.200012, y: -51.30002}
+        - {x: 52.799988, y: -51.30002}
+        - {x: 52.799988, y: 2.6999817}
+        - {x: 44.799988, y: 7.6999817}
+    - name: tile7_63
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.300018, y: 46.69998}
+        - {x: -51.30002, y: 3.6999817}
+        - {x: -51.30002, y: -51.30002}
+        - {x: 51.69998, y: -51.30002}
+        - {x: 51.69998, y: 46.69998}
+      - - {x: -51.30002, y: 51.69998}
+        - {x: -51.30002, y: 48.69998}
+        - {x: 51.69998, y: 48.69998}
+        - {x: 51.69998, y: 51.69998}
+    - name: tile7_64
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.69998}
+        - {x: -50.900024, y: -51.30002}
+        - {x: 52.099976, y: -51.30002}
+        - {x: 52.099976, y: 51.69998}
+    - name: tile7_65
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 51.69998}
+        - {x: -51.00003, y: -51.30002}
+        - {x: 52.99997, y: -51.30002}
+        - {x: 52.99997, y: 51.69998}
+    - name: tile7_66
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 51.69998}
+        - {x: -51.100037, y: -51.30002}
+        - {x: 51.899963, y: -51.30002}
+        - {x: 51.899963, y: 51.69998}
+    - name: tile7_67
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.69998}
+        - {x: -51.200012, y: -51.30002}
+        - {x: 52.799988, y: -51.30002}
+        - {x: 52.799988, y: 51.69998}
+    - name: tile7_68
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 51.69998}
+        - {x: -51.30005, y: -51.30002}
+        - {x: 51.69995, y: -51.30002}
+        - {x: 51.69995, y: 51.69998}
+    - name: tile7_69
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 570
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.69998}
+        - {x: -50.900024, y: -51.30002}
+        - {x: 52.099976, y: -51.30002}
+        - {x: 52.099976, y: 51.69998}
+    - name: tile7_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 52.799988}
+        - {x: -51.5, y: -51.200012}
+        - {x: 51.5, y: -51.200012}
+        - {x: 51.5, y: 52.799988}
+    - name: tile7_71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 52.799988}
+        - {x: -51.100006, y: -51.200012}
+        - {x: 51.899994, y: -51.200012}
+        - {x: 51.899994, y: 52.799988}
+    - name: tile7_72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.799988}
+        - {x: -51.200012, y: -51.200012}
+        - {x: 52.799988, y: -51.200012}
+        - {x: 52.799988, y: 52.799988}
+    - name: tile7_73
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 52.799988}
+        - {x: -51.30002, y: -51.200012}
+        - {x: 51.69998, y: -51.200012}
+        - {x: 51.69998, y: 52.799988}
+    - name: tile7_74
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.099976, y: 19.799988}
+        - {x: 52.099976, y: 49.799988}
+        - {x: 52.099976, y: 52.799988}
+        - {x: -50.900024, y: 52.799988}
+        - {x: -50.900024, y: -51.200012}
+        - {x: 52.099976, y: -51.200012}
+        - {x: 52.099976, y: -33.200012}
+        - {x: 50.099976, y: -26.200012}
+    - name: tile7_75
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.00003, y: 52.799988}
+        - {x: -51.00003, y: 7.799988}
+        - {x: -51.00003, y: -51.200012}
+        - {x: 52.99997, y: -51.200012}
+        - {x: 52.99997, y: 52.799988}
+    - name: tile7_76
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 52.799988}
+        - {x: -51.100037, y: -51.200012}
+        - {x: 51.899963, y: -51.200012}
+        - {x: 51.899963, y: 52.799988}
+    - name: tile7_77
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 52.799988}
+        - {x: -51.200012, y: -51.200012}
+        - {x: 52.799988, y: -51.200012}
+        - {x: 52.799988, y: 52.799988}
+    - name: tile7_78
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.69995, y: -51.200012}
+        - {x: 33.69995, y: -48.200012}
+        - {x: -51.30005, y: -48.200012}
+        - {x: -51.30005, y: -51.200012}
+      - - {x: -51.30005, y: 52.799988}
+        - {x: -51.30005, y: 49.799988}
+        - {x: 51.69995, y: 49.799988}
+        - {x: 51.69995, y: 52.799988}
+    - name: tile7_79
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 380
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 52.799988}
+        - {x: -50.900024, y: 49.799988}
+        - {x: 52.099976, y: 49.799988}
+        - {x: 52.099976, y: 52.799988}
+    - name: tile7_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 51.899994}
+        - {x: -51.5, y: -51.100006}
+        - {x: 51.5, y: -51.100006}
+        - {x: 51.5, y: 51.899994}
+    - name: tile7_81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 51.899994}
+        - {x: -51.100006, y: -51.100006}
+        - {x: 51.899994, y: -51.100006}
+        - {x: 51.899994, y: 51.899994}
+    - name: tile7_82
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.899994}
+        - {x: -51.200012, y: -51.100006}
+        - {x: 52.799988, y: -51.100006}
+        - {x: 52.799988, y: 51.899994}
+    - name: tile7_83
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30002, y: 51.899994}
+        - {x: -51.30002, y: -51.100006}
+        - {x: 51.69998, y: -51.100006}
+        - {x: 51.69998, y: 51.899994}
+    - name: tile7_84
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.099976, y: 33.899994}
+        - {x: 52.099976, y: 51.899994}
+        - {x: -50.900024, y: 51.899994}
+        - {x: -50.900024, y: -51.100006}
+        - {x: -42.900024, y: -51.100006}
+        - {x: -43.900024, y: -48.100006}
+        - {x: -25.900024, y: -51.100006}
+        - {x: 7.0999756, y: -51.100006}
+    - name: tile7_85
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.00003, y: -51.100006}
+        - {x: -43.00003, y: -48.100006}
+        - {x: -49.00003, y: -48.100006}
+        - {x: -50.00003, y: -51.100006}
+      - - {x: -51.00003, y: 51.899994}
+        - {x: -51.00003, y: 38.899994}
+        - {x: -36.00003, y: -8.100006}
+        - {x: -11.0000305, y: -51.100006}
+        - {x: 6.9999695, y: -51.100006}
+        - {x: 22.99997, y: -39.100006}
+        - {x: 52.99997, y: 31.899994}
+        - {x: 52.99997, y: 51.899994}
+    - name: tile7_86
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100037, y: 51.899994}
+        - {x: -51.100037, y: 26.899994}
+        - {x: -22.100037, y: -51.100006}
+        - {x: 14.899963, y: -51.100006}
+        - {x: 51.899963, y: 16.899994}
+        - {x: 51.899963, y: 51.899994}
+      - - {x: 51.899963, y: -51.100006}
+        - {x: 50.899963, y: -48.100006}
+        - {x: 44.899963, y: -48.100006}
+        - {x: 43.899963, y: -51.100006}
+    - name: tile7_87
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.899994}
+        - {x: -51.200012, y: 20.899994}
+        - {x: -43.200012, y: 3.899994}
+        - {x: -5.200012, y: -51.100006}
+        - {x: 9.799988, y: -51.100006}
+        - {x: 52.799988, y: 14.899994}
+        - {x: 52.799988, y: 51.899994}
+      - - {x: 51.799988, y: -51.100006}
+        - {x: 50.799988, y: -48.100006}
+        - {x: 45.799988, y: -48.100006}
+        - {x: 44.799988, y: -51.100006}
+    - name: tile7_88
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.30005, y: 51.899994}
+        - {x: -51.30005, y: 19.899994}
+        - {x: -42.30005, y: -2.100006}
+        - {x: -11.300049, y: -51.100006}
+        - {x: 12.699951, y: -51.100006}
+        - {x: 51.69995, y: 27.899994}
+        - {x: 51.69995, y: 51.899994}
+    - name: tile7_89
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 190
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 34.899994}
+        - {x: -47.900024, y: 35.899994}
+        - {x: -47.900024, y: 39.899994}
+        - {x: -49.900024, y: 41.899994}
+        - {x: -50.900024, y: 41.899994}
+    - name: tile7_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 51.5}
+        - {x: -51.5, y: 46.5}
+        - {x: -34.5, y: 37.5}
+        - {x: 50.5, y: -3.5}
+        - {x: 51.5, y: -3.5}
+        - {x: 51.5, y: 51.5}
+    - name: tile7_91
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.100006, y: 51.5}
+        - {x: -51.100006, y: -3.5}
+        - {x: 13.899994, y: -42.5}
+        - {x: 42.899994, y: -51.5}
+        - {x: 51.899994, y: -51.5}
+        - {x: 51.899994, y: 51.5}
+    - name: tile7_92
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.200012, y: 51.5}
+        - {x: -51.200012, y: -51.5}
+        - {x: -44.200012, y: -51.5}
+        - {x: 52.799988, y: -2.5}
+        - {x: 52.799988, y: 51.5}
+    - name: tile7_93
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.69998, y: -6.5}
+        - {x: 50.69998, y: -8.5}
+        - {x: 51.69998, y: -8.5}
+        - {x: 51.69998, y: 26.5}
+        - {x: 48.69998, y: 25.5}
+      - - {x: -51.30002, y: 51.5}
+        - {x: -51.30002, y: -2.5}
+        - {x: -49.30002, y: -2.5}
+        - {x: 51.69998, y: 48.5}
+        - {x: 51.69998, y: 51.5}
+    - name: tile7_94
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.900024, y: 51.5}
+        - {x: -50.900024, y: -51.5}
+        - {x: -32.900024, y: -51.5}
+        - {x: 52.099976, y: -6.5}
+        - {x: 52.099976, y: 7.5}
+        - {x: -33.900024, y: 51.5}
+      - - {x: -1.9000244, y: 51.5}
+        - {x: -0.9000244, y: 48.5}
+        - {x: 2.0999756, y: 48.5}
+        - {x: 4.0999756, y: 50.5}
+        - {x: 4.0999756, y: 51.5}
+    - name: tile7_95
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.00003, y: 51.5}
+        - {x: -51.00003, y: -51.5}
+        - {x: -29.00003, y: -51.5}
+        - {x: 52.99997, y: -6.5}
+        - {x: 52.99997, y: 9.5}
+        - {x: -14.0000305, y: 51.5}
+      - - {x: -2.0000305, y: 51.5}
+        - {x: -1.0000305, y: 48.5}
+        - {x: 2.9999695, y: 48.5}
+        - {x: 4.9999695, y: 50.5}
+        - {x: 4.9999695, y: 51.5}
+    - name: tile7_96
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.899963, y: 51.5}
+        - {x: -51.100037, y: 5.5}
+        - {x: -51.100037, y: -5.5}
+        - {x: 8.899963, y: -41.5}
+        - {x: 38.899963, y: -51.5}
+        - {x: 51.899963, y: -51.5}
+        - {x: 51.899963, y: 51.5}
+      - - {x: 2.8999634, y: 51.5}
+        - {x: 3.8999634, y: 48.5}
+        - {x: 6.8999634, y: 48.5}
+        - {x: 8.899963, y: 50.5}
+        - {x: 8.899963, y: 51.5}
+    - name: tile7_97
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.799988, y: 51.5}
+        - {x: -51.200012, y: 25.5}
+        - {x: -51.200012, y: -47.5}
+        - {x: -20.200012, y: -51.5}
+        - {x: 52.799988, y: -51.5}
+        - {x: 52.799988, y: 51.5}
+      - - {x: -2.2000122, y: 51.5}
+        - {x: -1.2000122, y: 48.5}
+        - {x: 1.7999878, y: 48.5}
+        - {x: 3.7999878, y: 50.5}
+        - {x: 3.7999878, y: 51.5}
+    - name: tile7_98
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.300049, y: 51.5}
+        - {x: -7.300049, y: 48.5}
+        - {x: -4.300049, y: 48.5}
+        - {x: -2.3000488, y: 50.5}
+        - {x: -2.3000488, y: 51.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

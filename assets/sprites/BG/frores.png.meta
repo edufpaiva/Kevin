@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 8d60b53e048866d4eb7df7fd8b723750
+timeCreated: 1465937310
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: frores_0
+    21300002: frores_1
+    21300004: frores_2
+    21300006: frores_3
+    21300008: frores_4
+    21300010: frores_5
+    21300012: frores_6
+    21300014: frores_7
+    21300016: frores_8
+    21300018: frores_9
+    21300020: frores_10
+    21300022: frores_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: frores_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1159
+        width: 328
+        height: 449
+      alignment: 9
+      pivot: {x: 0.866, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.849777, y: 115.48883}
+        - {x: -76.84978, y: 109.48883}
+        - {x: -76.84978, y: 30.48883}
+        - {x: -41.849777, y: -6.5111694}
+        - {x: 12.150223, y: -6.5111694}
+        - {x: 12.150223, y: 115.48883}
+    - name: frores_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1159
+        width: 371
+        height: 473
+      alignment: 9
+      pivot: {x: 0.531, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.994446, y: 118.38431}
+        - {x: 24.994446, y: 121.38431}
+        - {x: -30.005554, y: 121.38431}
+        - {x: -53.005554, y: 105.38431}
+        - {x: -53.005554, y: 57.384308}
+        - {x: -50.005554, y: 50.384308}
+        - {x: -22.005554, y: -6.615692}
+        - {x: 14.994446, y: -6.615692}
+        - {x: 9.994446, y: 13.384308}
+        - {x: 47.994446, y: 50.384308}
+        - {x: 47.994446, y: 113.38431}
+    - name: frores_2
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1159
+        width: 338
+        height: 445
+      alignment: 9
+      pivot: {x: 0.22, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.842285, y: 114.506256}
+        - {x: -19.842285, y: 88.506256}
+        - {x: -19.842285, y: -6.493744}
+        - {x: 23.157715, y: -6.493744}
+        - {x: 72.157715, y: 17.506256}
+        - {x: 72.157715, y: 99.506256}
+        - {x: 52.157715, y: 114.506256}
+    - name: frores_3
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1159
+        width: 363
+        height: 477
+      alignment: 9
+      pivot: {x: 0.474, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.275665, y: 122.36685}
+        - {x: -46.275665, y: 112.36685}
+        - {x: -46.275665, y: -0.6331482}
+        - {x: -43.275665, y: -6.633148}
+        - {x: 25.724335, y: -6.633148}
+        - {x: 51.724335, y: 36.36685}
+        - {x: 51.724335, y: 121.36685}
+        - {x: 49.724335, y: 122.36685}
+    - name: frores_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 328
+        height: 449
+      alignment: 9
+      pivot: {x: 0.866, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.150223, y: 115.23624}
+        - {x: -55.849777, y: 115.23624}
+        - {x: -76.84978, y: 111.23624}
+        - {x: -76.84978, y: 21.236237}
+        - {x: -55.849777, y: -6.7637634}
+        - {x: 12.150223, y: -6.7637634}
+        - {x: 12.150223, y: 105.23624}
+        - {x: 11.150223, y: 109.23624}
+    - name: frores_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 594
+        width: 371
+        height: 473
+      alignment: 9
+      pivot: {x: 0.531, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.005554, y: 121.13167}
+        - {x: -53.005554, y: -6.868332}
+        - {x: 35.994446, y: -6.868332}
+        - {x: 47.994446, y: 41.131668}
+        - {x: 47.994446, y: 121.13167}
+    - name: frores_6
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 594
+        width: 338
+        height: 445
+      alignment: 9
+      pivot: {x: 0.22, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.157715, y: 113.75368}
+        - {x: -5.842285, y: 113.75368}
+        - {x: -19.842285, y: 92.75368}
+        - {x: -19.842285, y: -6.2463226}
+        - {x: 21.157715, y: -6.2463226}
+        - {x: 72.157715, y: 49.753677}
+        - {x: 72.157715, y: 98.75368}
+    - name: frores_7
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 594
+        width: 363
+        height: 477
+      alignment: 9
+      pivot: {x: 0.474, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.275665, y: 122.11426}
+        - {x: -46.275665, y: 112.11426}
+        - {x: -46.275665, y: 40.114258}
+        - {x: -24.275665, y: -6.885742}
+        - {x: 30.724335, y: -6.885742}
+        - {x: 51.724335, y: 54.114258}
+        - {x: 51.724335, y: 122.11426}
+    - name: frores_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 328
+        height: 448
+      alignment: 9
+      pivot: {x: 0.866, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.150223, y: 109.548225}
+        - {x: -1.8497772, y: 114.548225}
+        - {x: -76.84978, y: 114.548225}
+        - {x: -76.84978, y: 21.548225}
+        - {x: -61.849777, y: -6.4517746}
+        - {x: 12.150223, y: -6.4517746}
+        - {x: 11.150223, y: -1.4517746}
+        - {x: 12.150223, y: 5.5482254}
+        - {x: 12.150223, y: 103.548225}
+    - name: frores_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 371
+        height: 472
+      alignment: 9
+      pivot: {x: 0.531, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.005554, y: 120.943665}
+        - {x: -53.005554, y: -7.0563316}
+        - {x: 31.994446, y: -7.0563316}
+        - {x: 47.994446, y: 42.94367}
+        - {x: 47.994446, y: 120.943665}
+    - name: frores_10
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 0
+        width: 338
+        height: 445
+      alignment: 9
+      pivot: {x: 0.22, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.842285, y: 113.686295}
+        - {x: -19.842285, y: 97.686295}
+        - {x: -19.842285, y: -6.3137016}
+        - {x: 48.157715, y: -6.3137016}
+        - {x: 72.157715, y: 2.6862984}
+        - {x: 72.157715, y: 104.686295}
+        - {x: 64.157715, y: 113.686295}
+    - name: frores_11
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 0
+        width: 363
+        height: 477
+      alignment: 9
+      pivot: {x: 0.474, y: 0.0523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.275665, y: 122.04688}
+        - {x: -46.275665, y: -6.9531174}
+        - {x: 32.724335, y: -6.9531174}
+        - {x: 51.724335, y: 45.046883}
+        - {x: 51.724335, y: 122.04688}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

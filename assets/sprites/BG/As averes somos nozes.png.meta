@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 98abe14f3dbc06d4b8c7e993c04c30da
+timeCreated: 1466121464
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: As averes somos nozes_0
+    21300002: As averes somos nozes_1
+    21300004: As averes somos nozes_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: As averes somos nozes_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 437
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.412125, y: -67.20848}
+        - {x: 98.412125, y: -15.208481}
+        - {x: 136.41212, y: 38.79152}
+        - {x: 136.41212, y: 129.79152}
+        - {x: 86.412125, y: 164.79152}
+        - {x: 45.412125, y: 176.79152}
+        - {x: -4.5878754, y: 176.79152}
+        - {x: -60.587875, y: 159.79152}
+        - {x: -97.587875, y: 149.79152}
+        - {x: -122.587875, y: 137.79152}
+        - {x: -135.58788, y: 115.79152}
+        - {x: -135.58788, y: 52.79152}
+        - {x: -134.58788, y: 33.79152}
+        - {x: -96.587875, y: -18.20848}
+        - {x: -70.587875, y: -43.20848}
+        - {x: -47.587875, y: -44.20848}
+        - {x: -49.587875, y: -101.20848}
+        - {x: -72.587875, y: -148.20848}
+        - {x: -100.587875, y: -165.20848}
+        - {x: -97.587875, y: -175.20848}
+        - {x: 72.412125, y: -175.20848}
+        - {x: 103.412125, y: -173.20848}
+        - {x: 114.412125, y: -160.20848}
+        - {x: 76.412125, y: -122.20848}
+    - name: As averes somos nozes_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 23
+        width: 342
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.184845, y: 57.27394}
+        - {x: 69.184845, y: 56.27394}
+        - {x: 66.184845, y: 48.27394}
+        - {x: 68.184845, y: 54.27394}
+        - {x: 68.184845, y: 56.27394}
+        - {x: 90.184845, y: 64.27394}
+        - {x: 100.184845, y: 51.27394}
+        - {x: 107.184845, y: 56.27394}
+        - {x: 107.184845, y: 100.27394}
+        - {x: 101.184845, y: 98.27394}
+        - {x: 71.184845, y: 99.27394}
+        - {x: 67.184845, y: 96.27394}
+        - {x: 59.184845, y: 87.27394}
+        - {x: 59.184845, y: 86.27394}
+        - {x: 53.184845, y: 78.27394}
+        - {x: 59.184845, y: 88.27394}
+        - {x: 72.184845, y: 104.27394}
+        - {x: 87.184845, y: 158.27394}
+        - {x: 86.184845, y: 160.27394}
+        - {x: -95.815155, y: 160.27394}
+        - {x: -105.815155, y: 148.27394}
+        - {x: -105.815155, y: -159.72606}
+        - {x: 101.184845, y: -159.72606}
+        - {x: 106.184845, y: -145.72606}
+        - {x: 86.184845, y: 42.27394}
+        - {x: 77.184845, y: 59.27394}
+      - - {x: 93.184845, y: -46.72606}
+        - {x: 93.184845, y: -48.72606}
+        - {x: 95.184845, y: -50.72606}
+        - {x: 107.184845, y: -50.72606}
+        - {x: 107.184845, y: -45.72606}
+        - {x: 95.184845, y: -44.72606}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

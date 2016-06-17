@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Death
+  - Teto
+  - Chao
+  - Obstaculo
+  - Parede
+  - Chao2
+  - Plataforma
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - parede
+  - obstaculos
+  - chao
+  - Player
+  - plataforma
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 837604999
+    locked: 0
+  - name: Obstaculos
+    uniqueID: 325997233
+    locked: 0
+  - name: Chao
+    uniqueID: 2794083405
+    locked: 0
+  - name: Jogador
+    uniqueID: 3865760869
+    locked: 0
+  - name: preenchimento
+    uniqueID: 671169647
+    locked: 0
+  - name: Canvas
+    uniqueID: 2711378237
+    locked: 0

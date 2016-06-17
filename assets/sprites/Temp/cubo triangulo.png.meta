@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 290f23c2b337e9345878ff779ad37974
+timeCreated: 1462568233
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cubo triangulo_0
+    21300002: cubo triangulo_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: cubo triangulo_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 119
+        width: 843
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112.26667, y: 59.233337}
+        - {x: 112.26667, y: 106.23334}
+        - {x: 111.26667, y: 111.23334}
+        - {x: 109.26667, y: 113.23334}
+        - {x: -111.73333, y: 113.23334}
+        - {x: -112.73333, y: 112.23334}
+        - {x: -112.73333, y: -110.76666}
+        - {x: -111.73333, y: -111.76666}
+        - {x: 111.26667, y: -111.76666}
+        - {x: 113.26667, y: -109.76666}
+        - {x: 113.26667, y: 58.233337}
+    - name: cubo triangulo_1
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 152
+        width: 731
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.800018, y: 100.53334}
+        - {x: 7.8000183, y: 102.53334}
+        - {x: -8.199982, y: 102.53334}
+        - {x: -97.19998, y: -79.46666}
+        - {x: -97.19998, y: -99.46666}
+        - {x: -96.19998, y: -101.46666}
+        - {x: 81.80002, y: -101.46666}
+        - {x: 98.80002, y: -99.46666}
+        - {x: 98.80002, y: -85.46666}
+        - {x: 74.80002, y: -28.46666}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
