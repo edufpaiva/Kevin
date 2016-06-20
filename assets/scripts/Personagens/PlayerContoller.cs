@@ -14,7 +14,7 @@ public class PlayerContoller : MonoBehaviour
 
     public float velocidadeDeQueda;
 
-    //pulo do kevin idiota antes de ficar bombado
+    //pulo do kevin 
     public Transform groundCheck;
     private float groundRadius = 0.1f;
     public LayerMask whatIsGround;
