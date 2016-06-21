@@ -29,20 +29,27 @@ public class PlayerContoller : MonoBehaviour
         evilLaugh.GetComponent<AudioSource>();
 	}
 
-	// Update is called once per frame
-	void FixedUpdate ()
-	{
-        
+    // Update is called once per frame
+    void Update() {
         if (!morto)
-        {
-            Movement();
-            SetNoChao();
-            Freio();
+        {       
+            SetNoChao();   
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 Pular();
             }
 
+        }
+    }
+    
+    
+	void FixedUpdate ()
+	{
+        if (!morto)
+        {
+            Movement();
+            Freio();
+            
         }
         else
         {
@@ -51,7 +58,6 @@ public class PlayerContoller : MonoBehaviour
             Invoke("Morreu", 2f);
 
         }
-
     }
 
 
@@ -65,9 +71,7 @@ public class PlayerContoller : MonoBehaviour
             move = Input.GetAxisRaw("Horizontal");
         }
         
-
         mAnimator.SetFloat("Speed", Mathf.Abs(move));
-
 
         transform.Translate(new Vector2(move, 0f) * velocidadeDeMovimento * Time.deltaTime);
         //playerRB.velocity = new Vector2(move * velocidadeDeMovimento, playerRB.velocity.y);
@@ -80,7 +84,6 @@ public class PlayerContoller : MonoBehaviour
             Flip();
         }
 
-
     }
 
     void Flip()
@@ -90,7 +93,6 @@ public class PlayerContoller : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-
 
     }
 
@@ -103,8 +105,6 @@ public class PlayerContoller : MonoBehaviour
             mAnimator.SetBool("Pulando", false);
 
         }
-
-
     }
 
     void OnCollisionEnter2D (Collision2D col)
@@ -115,18 +115,15 @@ public class PlayerContoller : MonoBehaviour
             mAnimator.SetBool("Morrendo", true);
             evilLaugh.Play();
         }
-		
-
 	}
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
-		if (col.gameObject.tag == "Chao") {
+		/*if (col.gameObject.tag == "Chao") {
 			naoPulou = true;
             mAnimator.SetBool("Pulando", false);
 
-        }
-
+        }*/
 	}
 
 
@@ -146,13 +143,9 @@ public class PlayerContoller : MonoBehaviour
         if (naoPulou)
         {
             naoPulou = false;
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * alturaDePulo;
-            
             mAnimator.SetBool("Pulando", true);
+            playerRB.velocity = Vector2.up * alturaDePulo;
         }
-
-
-
     }
 
     void Freio()
@@ -163,8 +156,5 @@ public class PlayerContoller : MonoBehaviour
             playerRB.velocity = playerRB.velocity.normalized * velocidadeDeQueda;
 
         }
-
-
-
     }
 }
