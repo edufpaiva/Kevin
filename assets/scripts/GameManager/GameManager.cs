@@ -1,22 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StageSound : MonoBehaviour {
-    public static StageSound Instance;
-    void Awake()
-    {
+public class GameManager : MonoBehaviour {
+    public static GameManager Instance;
+    // Use this for initialization
+
+    void Awake() {
         DontDestroyOnLoad(gameObject);
 
         if (Instance == null)
         {
             Instance = this;
         }
-        else
-        {
+        else {
             Destroy(gameObject);
         }
+
     }
-    void Start () {
+    
+	void Start () {
 	
 	}
 	
