@@ -11,6 +11,7 @@ TagManager:
   - Parede
   - Chao2
   - Plataforma
+  - FinalDaFase
   layers:
   - Default
   - TransparentFX

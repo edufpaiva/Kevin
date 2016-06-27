@@ -16,10 +16,12 @@ public class PlayerContoller : MonoBehaviour
 
     //pulo do kevin 
     public Transform groundCheck;
-    private float groundRadius = 0.1f;
+    private float groundRadius = 0.01f;
     public LayerMask whatIsGround;
     private bool naoPulou = true;
     public bool noChao = false;
+
+    
 
     // Use this for initialization
     void Start ()
@@ -115,16 +117,14 @@ public class PlayerContoller : MonoBehaviour
             mAnimator.SetBool("Morrendo", true);
             evilLaugh.Play();
         }
+
+        if (col.gameObject.tag == "FinalDaFase") {
+            GameManager.Instance.GetComponent<SceneManager>().CarregarCena("Menu");
+
+        }
 	}
 
-	void OnTriggerEnter2D (Collider2D col)
-	{
-		/*if (col.gameObject.tag == "Chao") {
-			naoPulou = true;
-            mAnimator.SetBool("Pulando", false);
-
-        }*/
-	}
+	
 
 
 	void Morreu ()
