@@ -8,7 +8,7 @@ public class StartBTN : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// Update is called once per frame mudei isso aqui
 	void Update () {
 	
 	}
