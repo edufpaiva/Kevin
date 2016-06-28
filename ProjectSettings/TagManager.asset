@@ -12,6 +12,7 @@ TagManager:
   - Chao2
   - Plataforma
   - FinalDaFase
+  - Canvas
   layers:
   - Default
   - TransparentFX

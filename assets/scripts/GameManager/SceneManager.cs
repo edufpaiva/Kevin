@@ -2,9 +2,7 @@
 using System.Collections;
 
 public class SceneManager : MonoBehaviour {
-    public AudioSource menu;
-
-    public AudioSource fase01;
+    public AudioSource[] musicas;
 
 
     public void CarregarCena(string nomeDaCena)
@@ -13,14 +11,15 @@ public class SceneManager : MonoBehaviour {
         
 
     }
+  
 
 
-    public void PlayMusic(AudioSource musica) {
-        musica.Play();
+    public void PlayMusic(int i) {
+        musicas[i].Play();
     }
 
-    public void StopMusic(AudioSource musica) {
-        musica.Stop();
+    public void StopMusic(int i) {
+        musicas[i].Stop();
     }
 
 

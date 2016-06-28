@@ -3,7 +3,10 @@ using System.Collections;
 
 public class PlayerContoller : MonoBehaviour
 {
-	public float velocidadeDeMovimento, alturaDePulo;
+    public GameObject[] mCanvas;
+
+
+    public float velocidadeDeMovimento, alturaDePulo;
 	public bool morto = false;
     private Animator mAnimator;
     private Rigidbody2D playerRB;
@@ -119,8 +122,9 @@ public class PlayerContoller : MonoBehaviour
         }
 
         if (col.gameObject.tag == "FinalDaFase") {
-            GameManager.Instance.GetComponent<SceneManager>().CarregarCena("Menu");
-
+            mCanvas[0].SetActive(false);
+            mCanvas[1].SetActive(true);
+            
         }
 	}
 
@@ -129,7 +133,9 @@ public class PlayerContoller : MonoBehaviour
 
 	void Morreu ()
 	{
-		Application.LoadLevel (Application.loadedLevel);
+        mCanvas[0].SetActive(false);
+        mCanvas[1].SetActive(true);
+        
 	}
 
     public void Botoes(int direcao){
