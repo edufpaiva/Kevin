@@ -19,10 +19,12 @@ public class PlayerContoller : MonoBehaviour
 
     //pulo do kevin 
     public Transform groundCheck;
-    private float groundRadius = 0.01f;
+    private float groundRadius = 0.001f;
     public LayerMask whatIsGround;
     private bool naoPulou = true;
     public bool noChao = false;
+
+
 
     
 
@@ -60,7 +62,7 @@ public class PlayerContoller : MonoBehaviour
         {
             naoPulou = false;
 
-            Invoke("Morreu", 2f);
+            Invoke("Morreu", 1f);
 
         }
     }
@@ -116,9 +118,14 @@ public class PlayerContoller : MonoBehaviour
 	{
 		if (col.gameObject.tag == "Death") {
 
-			morto = true;
-            mAnimator.SetBool("Morrendo", true);
-            evilLaugh.Play();
+            if (!morto) {
+                GameManager.Instance.SetMortes();
+                morto = true;
+                mAnimator.SetBool("Morrendo", true);
+                evilLaugh.Play();
+            }
+			
+            
         }
 
         if (col.gameObject.tag == "FinalDaFase") {

@@ -2,8 +2,13 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
+    // instance
     public static GameManager Instance;
-    // Use this for initialization
+
+    //Contador de mortes
+    private int mortes;
+    
+
 
     void Awake() {
         DontDestroyOnLoad(gameObject);
@@ -19,11 +24,25 @@ public class GameManager : MonoBehaviour {
     }
     
 	void Start () {
-	
+        mortes = PlayerPrefs.GetInt("Mortes");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            mortes = 0;
+            PlayerPrefs.SetInt("Mortes", 0);
+            PlayerPrefs.Save();
+        }
+
+    }
+
+    public void SetMortes() {
+        mortes--;
+        PlayerPrefs.SetInt("Mortes", mortes);
+        PlayerPrefs.Save();
+    }
+
+    public int GetMortes() {
+        return PlayerPrefs.GetInt("Mortes");
+    }
 }
