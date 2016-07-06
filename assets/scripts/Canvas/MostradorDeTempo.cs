@@ -6,7 +6,7 @@ public class MostradorDeTempo : MonoBehaviour {
     private Text text;
     private float segundos = 0;
     private string temp;
-
+    private bool salvou = false;
 
 
 	// Use this for initialization
@@ -17,31 +17,50 @@ public class MostradorDeTempo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        segundos += Time.deltaTime;
+        print(GameManager.Instance.GetFinalDaFase(GameManager.Instance.GetNumeroDaFase()));
+        print(GameManager.Instance.GetNumeroDaFase());
+        if (GameManager.Instance.GetPlayerMorto())
+        {
 
-        if (Mathf.Round(segundos) < 10f)
+        }
+        else if (salvou)
         {
-            temp = "00" + Mathf.Round(segundos).ToString();
-            text.text = temp;
+            print(segundos + "  foi salvo");
+
         }
-        else if (Mathf.Round(segundos) < 100f )
-        {
-            temp = "0" + Mathf.Round(segundos).ToString();
-            text.text = temp;
+        else if (GameManager.Instance.GetFinalDaFase(GameManager.Instance.GetNumeroDaFase())) {
+            
+            if (!salvou) {
+                GameManager.Instance.SetTempoFase(GameManager.Instance.GetNumeroDaFase(), Mathf.Round(segundos));
+                salvou = true;
+            }
+
+        } else {
+            segundos += Time.deltaTime;
+
+            if (Mathf.Round(segundos) < 10f)
+            {
+                temp = "00" + Mathf.Round(segundos).ToString();
+                text.text = temp;
+            }
+            else if (Mathf.Round(segundos) < 100f)
+            {
+                temp = "0" + Mathf.Round(segundos).ToString();
+                text.text = temp;
+            }
+            else
+            {
+                temp = Mathf.Round(segundos).ToString();
+                text.text = temp;
+            }
         }
-        else  {
-            temp = Mathf.Round(segundos).ToString();
-            text.text = temp;
-        }
+
+        
     }
 
     public float GetTime() {
-        return this.segundos;
+        return Mathf.Round(this.segundos);
 
     }
 
-    public void Destruir() {
-        Destroy(gameObject);
-
-    }
 }

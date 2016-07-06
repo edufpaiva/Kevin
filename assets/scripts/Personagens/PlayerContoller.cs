@@ -31,6 +31,7 @@ public class PlayerContoller : MonoBehaviour
     // Use this for initialization
     void Start ()
 	{
+        GameManager.Instance.SetPlayerMorto(false);
         mAnimator = GetComponent<Animator>();
         playerRB = GetComponent<Rigidbody2D>();
         evilLaugh.GetComponent<AudioSource>();
@@ -52,6 +53,7 @@ public class PlayerContoller : MonoBehaviour
     
 	void FixedUpdate ()
 	{
+        //SetNoChao();
         if (!morto)
         {
             Movement();
@@ -119,6 +121,7 @@ public class PlayerContoller : MonoBehaviour
 		if (col.gameObject.tag == "Death") {
 
             if (!morto) {
+                GameManager.Instance.SetPlayerMorto(true);
                 GameManager.Instance.SetMortes();
                 morto = true;
                 mAnimator.SetBool("Morrendo", true);

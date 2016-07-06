@@ -7,7 +7,14 @@ public class GameManager : MonoBehaviour {
 
     //Contador de mortes
     private int mortes;
+
+    //Verifica se o player está morto
+    private bool playerMorto = false;
+
+    //controladores de fase
     
+    private bool[] finalFases = new bool[4];
+    private int numeroDaFase;
 
 
     void Awake() {
@@ -25,12 +32,20 @@ public class GameManager : MonoBehaviour {
     
 	void Start () {
         mortes = PlayerPrefs.GetInt("Mortes");
-	}
+        for (int i = 0; i < finalFases.Length; i++) {
+            finalFases[i] = false;
+        }
+    
+
+    }
 
     void Update() {
         if (Input.GetKeyDown(KeyCode.Q)) {
             mortes = 0;
             PlayerPrefs.SetInt("Mortes", 0);
+            for (int i = 0; i < 4; i++) {
+                PlayerPrefs.SetFloat("Fase" + (i + 1).ToString(), 0);
+            }
             PlayerPrefs.Save();
         }
 
@@ -45,4 +60,43 @@ public class GameManager : MonoBehaviour {
     public int GetMortes() {
         return PlayerPrefs.GetInt("Mortes");
     }
+
+    public void SetPlayerMorto(bool morto) {
+        this.playerMorto = morto;
+    }
+
+    public bool GetPlayerMorto() {
+        return this.playerMorto;
+    }
+
+    public void SetTempoFase(int i, float tempo) {
+        if (PlayerPrefs.GetFloat("Fase" + (i).ToString()) < tempo) {
+            PlayerPrefs.SetFloat("Fase"+(i).ToString(), tempo);
+            PlayerPrefs.Save();
+        }
+
+    }
+
+    public float GetTempoFase(int i) {
+        return PlayerPrefs.GetFloat("Fase" + (i).ToString());
+    }
+
+    public void SetFinalDaFase(int i, bool final) {
+        finalFases[i - 1] = final;
+    }
+
+    public bool GetFinalDaFase(int i)
+    {
+        return finalFases[i - 1];
+    }
+
+    public void SetNumeroDaFase(int i) {
+        numeroDaFase = i;
+    }
+
+    public int GetNumeroDaFase()
+    {
+        return numeroDaFase;
+    }
+
 }
