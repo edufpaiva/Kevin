@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 3675ee456fa96994083bd631dfd1ec12
+timeCreated: 1467851029
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cabeca
+    21300002: kevin 2 - IDLE_1
+    21300004: kevin 2 - IDLE_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cabeca
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 230
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49086624, y: 0.0749543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.10076, y: 191.83546}
+        - {x: 45.10076, y: 211.83546}
+        - {x: 43.10076, y: 211.83546}
+        - {x: 8.100761, y: 196.83546}
+        - {x: -8.899239, y: 174.83546}
+        - {x: -42.89924, y: 211.83546}
+        - {x: -82.89924, y: 211.83546}
+        - {x: -112.89924, y: 184.83546}
+        - {x: -112.89924, y: 112.835464}
+        - {x: -63.89924, y: -1.1645355}
+        - {x: -34.89924, y: -17.164536}
+        - {x: 78.10076, y: -17.164536}
+        - {x: 89.10076, y: -12.1645355}
+        - {x: 117.10076, y: 4.8354645}
+        - {x: 117.10076, y: 136.83546}
+    - name: kevin 2 - IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 42
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5076878, y: 0.83633983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.322887, y: 9.819611}
+        - {x: -12.322887, y: 8.819611}
+        - {x: -14.322887, y: -4.1803894}
+        - {x: -21.322887, y: -27.18039}
+        - {x: -21.322887, y: -44.18039}
+        - {x: 3.6771126, y: -50.18039}
+        - {x: 16.677113, y: -50.18039}
+        - {x: 20.677113, y: -44.18039}
+        - {x: 20.677113, y: -3.1803894}
+        - {x: 9.677113, y: 9.819611}
+    - name: kevin 2 - IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 44
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5076878, y: 0.8363398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.338257, y: 9.819614}
+        - {x: -20.338257, y: -5.1803856}
+        - {x: -22.338257, y: -12.180386}
+        - {x: -22.338257, y: -43.180386}
+        - {x: 1.6617432, y: -50.180386}
+        - {x: 15.661743, y: -50.180386}
+        - {x: 21.661743, y: -40.180386}
+        - {x: 21.661743, y: 2.8196144}
+        - {x: 9.661743, y: 9.819614}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
