@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: assets/Scenes/Splash_ocean.unity
+  - enabled: 1
     path: assets/Scenes/Splash.unity
   - enabled: 1
     path: assets/Scenes/Menu.unity
