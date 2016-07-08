@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: b006b0ecacbedc443b360871f1f74dbe
+timeCreated: 1430523155
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: logos_0
+    21300002: logos_1
+    21300004: logos_2
+    21300006: logos_3
+    21300008: logos_4
+    21300010: logos_5
+    21300012: logos_6
+    21300014: logos_7
+    21300016: logos_8
+    21300018: logos_9
+    21300020: logos_10
+    21300022: logos_11
+    21300024: logos_12
+    21300026: logos_13
+    21300028: logos_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: logos_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 325
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 208
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 208
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 208
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 109
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 109
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 106
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 392
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
