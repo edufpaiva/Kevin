@@ -94,15 +94,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -10.570879
+      value: -56.93
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -11.275586
+      value: -90.596
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2092.5728
+      value: 3.2329
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalRotation.x
@@ -126,15 +126,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalScale.x
-      value: 23.3
+      value: 67.8554
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalScale.y
-      value: 23.3
+      value: 67.8554
       objectReference: {fileID: 0}
     - target: {fileID: 447130, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
       propertyPath: m_LocalScale.z
-      value: 23.3
+      value: 67.8554
+      objectReference: {fileID: 0}
+    - target: {fileID: 9519972, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8eb3efb108d14da4a9bcd4ca46bc25fc, type: 2}
@@ -416,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
