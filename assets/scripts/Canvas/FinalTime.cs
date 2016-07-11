@@ -10,7 +10,7 @@ public class FinalTime : MonoBehaviour {
     void Start()
     {
         text = GetComponent<Text>();
-        text.text = "Your Time:   " + relogio.GetComponent<MostradorDeTempo>().GetTime() + "s";
+        text.text = "Your Time:   " + GameManager.Instance.GetTempoTemporario().ToString() + "s";
     }
 
 
