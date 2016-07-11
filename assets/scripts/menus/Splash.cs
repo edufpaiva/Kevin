@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Splash : MonoBehaviour {
+public class Splash : MonoBehaviour
+{
 
 	
-	void Start () {
+	void Start ()
+    {
         Invoke("FimDoSplash" , 3);
 
         
 	}
 
-    void FimDoSplash() {
+    void FimDoSplash()
+    {
         GameManager.Instance.GetComponent<SceneManager>().CarregarCena("Menu");
     }
 }

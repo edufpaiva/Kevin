@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: 8cd8f7b2af6e2b44c877303bfe493b65
+timeCreated: 1468015155
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Death-Counter_0
+    21300002: Death-Counter_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Death-Counter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 329
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.5, y: 0}
+        - {x: 107.5, y: 57}
+        - {x: 94.5, y: 131}
+        - {x: 42.5, y: 144}
+        - {x: -109.5, y: 144}
+        - {x: -109.5, y: 13}
+        - {x: -68.5, y: -37}
+        - {x: -55.5, y: -47}
+        - {x: -54.5, y: -47}
+        - {x: -53.5, y: -49}
+        - {x: -48.5, y: -51}
+        - {x: -46.5, y: -51}
+        - {x: -42.5, y: -53}
+        - {x: -15.5, y: -64}
+        - {x: -47.5, y: -51}
+        - {x: -56.5, y: -47}
+        - {x: -62.5, y: -44}
+        - {x: -72.5, y: -42}
+        - {x: -105.5, y: -75}
+        - {x: -107.5, y: -109}
+        - {x: -72.5, y: -144}
+        - {x: 108.5, y: -144}
+        - {x: 106.5, y: -118}
+        - {x: 98.5, y: -106}
+        - {x: 109.5, y: -91}
+    - name: Death-Counter_2
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 9
+        width: 334
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.19974, y: 43.976654}
+        - {x: 90.19974, y: 72.976654}
+        - {x: 38.199738, y: 72.976654}
+        - {x: 26.199738, y: 123.976654}
+        - {x: -56.800262, y: 123.976654}
+        - {x: -91.80026, y: 67.976654}
+        - {x: -110.80026, y: 19.976654}
+        - {x: -110.80026, y: -63.023346}
+        - {x: -73.80026, y: -122.023346}
+        - {x: 27.199738, y: -122.023346}
+        - {x: 62.199738, y: -107.023346}
+        - {x: 95.19974, y: -42.023346}
+        - {x: 111.19974, y: 14.976654}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
