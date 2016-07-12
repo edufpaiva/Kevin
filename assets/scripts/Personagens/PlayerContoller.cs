@@ -161,6 +161,7 @@ public class PlayerContoller : MonoBehaviour
             naoPulou = false;
             mAnimator.SetBool("Pulando", true);
             playerRB.velocity = Vector2.up * alturaDePulo;
+            naoPulou = false;
         }
     }
 

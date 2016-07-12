@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
     //controladores de fase
     
     private bool[] finalFases = new bool[4];
+    private int[] itemSecreto = new int[4];
     private int numeroDaFase;
     private float tempoTemporario;
 
@@ -35,6 +36,8 @@ public class GameManager : MonoBehaviour {
         mortes = PlayerPrefs.GetInt("Mortes");
         for (int i = 0; i < finalFases.Length; i++) {
             finalFases[i] = false;
+            itemSecreto[i] = PlayerPrefs.GetInt("ItemSecreto" + i.ToString());
+
         }
     
 
@@ -46,6 +49,8 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.SetInt("Mortes", 0);
             for (int i = 0; i < 4; i++) {
                 PlayerPrefs.SetFloat("Fase" + (i + 1).ToString(), 0);
+                PlayerPrefs.SetInt("ItemSecreto" + i.ToString(), 0);
+                itemSecreto[i] = PlayerPrefs.GetInt("ItemSecreto" + i.ToString());
             }
             PlayerPrefs.Save();
         }
@@ -73,7 +78,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void SetTempoFase(float tempo) {
-        if (PlayerPrefs.GetFloat("Fase" + numeroDaFase.ToString()) < tempo) {
+        if (PlayerPrefs.GetFloat("Fase" + numeroDaFase.ToString()) > tempo || PlayerPrefs.GetFloat("Fase" + numeroDaFase.ToString())  <= 1) {
             PlayerPrefs.SetFloat("Fase"+ numeroDaFase.ToString(), tempo);
             
             PlayerPrefs.Save();
@@ -112,6 +117,18 @@ public class GameManager : MonoBehaviour {
 
 
         return tempoTemporario;
+    }
+
+    public void SetItemSecreto() {
+
+        this.itemSecreto[numeroDaFase] = 1;
+        PlayerPrefs.SetInt("ItemSecreto" + numeroDaFase.ToString(), 1);
+        PlayerPrefs.Save();
+    }
+
+    public int GetItemSecreto() {
+
+        return itemSecreto[numeroDaFase];
     }
 
 

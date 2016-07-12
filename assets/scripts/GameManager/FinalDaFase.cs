@@ -2,13 +2,18 @@
 using System.Collections;
 
 public class FinalDaFase : MonoBehaviour {
-    public int numeroDaFase;
+    private int numeroDaFase;
     private bool jogadorEsteveAqui = false;
 
     // Use this for initialization
     void Awake() {
-        GameManager.Instance.SetNumeroDaFase(numeroDaFase);
+        
+        
+    }
+    void Start() {
+        numeroDaFase = GameManager.Instance.GetNumeroDaFase();
         GameManager.Instance.SetFinalDaFase(numeroDaFase, false);
+
     }
 
 
