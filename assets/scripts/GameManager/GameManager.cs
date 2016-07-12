@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
     
     private bool[] finalFases = new bool[4];
     private int numeroDaFase;
+    private float tempoTemporario;
 
 
     void Awake() {
@@ -49,6 +50,8 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.Save();
         }
 
+
+
     }
 
     public void SetMortes() {
@@ -69,9 +72,10 @@ public class GameManager : MonoBehaviour {
         return this.playerMorto;
     }
 
-    public void SetTempoFase(int i, float tempo) {
-        if (PlayerPrefs.GetFloat("Fase" + (i).ToString()) < tempo) {
-            PlayerPrefs.SetFloat("Fase"+(i).ToString(), tempo);
+    public void SetTempoFase(float tempo) {
+        if (PlayerPrefs.GetFloat("Fase" + numeroDaFase.ToString()) < tempo) {
+            PlayerPrefs.SetFloat("Fase"+ numeroDaFase.ToString(), tempo);
+            
             PlayerPrefs.Save();
         }
 
@@ -98,5 +102,17 @@ public class GameManager : MonoBehaviour {
     {
         return numeroDaFase;
     }
+
+    public void SetTempoTemporario(float tempo) {
+        this.tempoTemporario = tempo;
+       
+    }
+
+    public float GetTempoTemporario() {
+
+
+        return tempoTemporario;
+    }
+
 
 }

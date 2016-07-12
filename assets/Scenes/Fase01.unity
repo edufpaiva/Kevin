@@ -35202,11 +35202,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 428130, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -12.9
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 428130, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 10.2
+      value: 11.54
       objectReference: {fileID: 0}
     - target: {fileID: 428130, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
       propertyPath: m_LocalPosition.z
@@ -59145,6 +59145,45 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &935958594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 935958595}
+  - 114: {fileID: 935958596}
+  m_Layer: 0
+  m_Name: Cronometro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935958595
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935958594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 171.81221, y: 229.43423, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+--- !u!114 &935958596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935958594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289935c8583d19446af4a9b1d6578c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &939045391
 GameObject:
   m_ObjectHideFlags: 0
@@ -78953,7 +78992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac40ccb429bc292478a8394de1278cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  relogio: {fileID: 1254730585}
+  relogio: {fileID: 935958594}
 --- !u!1 &1266965879
 GameObject:
   m_ObjectHideFlags: 0
