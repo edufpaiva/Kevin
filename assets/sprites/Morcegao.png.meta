@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: e5706eb6a70c2d5478d390175d5d55af
+timeCreated: 1468280955
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Espinho
+    21300002: Cabeca
+    21300004: Asa
+    21300006: Asa2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Espinho
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 560
+        width: 117
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.199873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 136.82172}
+        - {x: -58.5, y: 33.821716}
+        - {x: -58.5, y: -34.178284}
+        - {x: 54.5, y: -34.178284}
+        - {x: 58.5, y: -28.178284}
+        - {x: 58.5, y: 45.821716}
+        - {x: 7.5, y: 136.82172}
+    - name: Cabeca
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 346
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 124, y: -145}
+        - {x: 151, y: -120}
+        - {x: 168, y: -87}
+        - {x: 172, y: -73}
+        - {x: 173, y: -64}
+        - {x: 173, y: -2}
+        - {x: 170, y: 16}
+        - {x: 162, y: 42}
+        - {x: 145, y: 78}
+        - {x: 128, y: 104}
+        - {x: 98, y: 137}
+        - {x: 75, y: 155}
+        - {x: 46, y: 170}
+        - {x: 28, y: 175}
+        - {x: -32, y: 175}
+        - {x: -47, y: 170}
+        - {x: -72, y: 157}
+        - {x: -84, y: 149}
+        - {x: -92, y: 143}
+        - {x: -121, y: 116}
+        - {x: -146, y: 81}
+        - {x: -164, y: 43}
+        - {x: -170, y: 20}
+        - {x: -173, y: 9}
+        - {x: -173, y: -63}
+        - {x: -171, y: -70}
+        - {x: -164, y: -92}
+        - {x: -158, y: -103}
+        - {x: -146, y: -120}
+        - {x: -119, y: -145}
+        - {x: -105, y: -153}
+        - {x: -83, y: -163}
+        - {x: -62, y: -171}
+        - {x: -40, y: -175}
+        - {x: 42, y: -175}
+        - {x: 52, y: -173}
+        - {x: 73, y: -169}
+        - {x: 94, y: -160}
+    - name: Asa
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 231
+        width: 335
+        height: 233
+      alignment: 9
+      pivot: {x: 0.12033236, y: 0.19354431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 294.68866, y: -1.0958252}
+        - {x: 278.68866, y: 61.904175}
+        - {x: 255.68866, y: 105.904175}
+        - {x: 230.68866, y: 145.90417}
+        - {x: 176.68866, y: 187.90417}
+        - {x: 122.68866, y: 187.90417}
+        - {x: 118.68866, y: 186.90417}
+        - {x: 100.68866, y: 168.90417}
+        - {x: 66.68866, y: 90.904175}
+        - {x: -40.31134, y: 28.904175}
+        - {x: -40.31134, y: 6.904175}
+        - {x: -22.31134, y: -45.095825}
+        - {x: -20.31134, y: -45.095825}
+        - {x: 66.68866, y: -20.095825}
+        - {x: 132.68866, y: -45.095825}
+        - {x: 146.68866, y: -45.095825}
+        - {x: 230.68866, y: -6.095825}
+        - {x: 268.68866, y: -20.095825}
+        - {x: 294.68866, y: -30.095825}
+    - name: Asa2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 479
+        height: 170
+      alignment: 9
+      pivot: {x: 0.1110225, y: 0.19154452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 387.82022, y: 62.43743}
+        - {x: 359.82022, y: 83.43743}
+        - {x: 321.82022, y: 109.43743}
+        - {x: 260.82022, y: 136.43744}
+        - {x: 253.82022, y: 137.43744}
+        - {x: 179.82022, y: 137.43744}
+        - {x: 156.82022, y: 130.43744}
+        - {x: 99.82022, y: 65.43743}
+        - {x: 36.82022, y: 39.43743}
+        - {x: -53.17978, y: 21.437431}
+        - {x: -53.17978, y: 12.437431}
+        - {x: -26.17978, y: -32.56257}
+        - {x: -14.179779, y: -32.56257}
+        - {x: 37.82022, y: -25.562569}
+        - {x: 90.82022, y: -15.562569}
+        - {x: 182.82022, y: -32.56257}
+        - {x: 220.82022, y: -32.56257}
+        - {x: 305.82022, y: -4.5625687}
+        - {x: 425.82022, y: -23.562569}
+        - {x: 425.82022, y: 1.4374313}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
