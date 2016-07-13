@@ -47,9 +47,10 @@ public class PlayerMovementController : MonoBehaviour {
 
             }
             IsGrounded();
-
-
         }
+
+
+        
     }
 	
 	void FixedUpdate () {
@@ -114,9 +115,10 @@ public class PlayerMovementController : MonoBehaviour {
     void IsGrounded() {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, whatIsGround);
         if (grounded) {
-            jumped = false;
-
-            
+            jumped = false;  
+        }
+        if (playerRB.velocity.y > 1) {
+            jumped = true;
         }
         mAnimator.SetBool("Grounded", grounded);
         mAnimator.SetFloat("VerticalSpeed", playerRB.velocity.y);
