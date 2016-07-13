@@ -481,7 +481,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 354723336}
+  - {fileID: 736771719}
   - {fileID: 1527772492}
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -823,11 +823,6 @@ Transform:
   - {fileID: 1997856614}
   m_Father: {fileID: 0}
   m_RootOrder: 12
---- !u!224 &354723336 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 22497094, guid: dac269d5389ffc4409f7eff0e75033fa,
-    type: 2}
-  m_PrefabInternal: {fileID: 736771718}
 --- !u!1 &359438657
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   altura: 1
   lateral: 0
+  espeto: {fileID: 0}
 --- !u!50 &359438659
 Rigidbody2D:
   serializedVersion: 2
@@ -1090,6 +1086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   altura: 1
   lateral: 0
+  espeto: {fileID: 0}
 --- !u!50 &535356084
 Rigidbody2D:
   serializedVersion: 2
@@ -1592,6 +1589,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dac269d5389ffc4409f7eff0e75033fa, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &736771719 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 736771718}
 --- !u!1 &789319267
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   altura: 1
   lateral: 0
+  espeto: {fileID: 0}
 --- !u!50 &1310293665
 Rigidbody2D:
   serializedVersion: 2
