@@ -108299,7 +108299,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 488046, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 488046, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
       propertyPath: m_LocalPosition.z
@@ -108333,6 +108333,14 @@ Prefab:
       propertyPath: menuMorto.Array.data[1]
       value: 
       objectReference: {fileID: 1634113313}
+    - target: {fileID: 11417148, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
+      propertyPath: brakeVelocity
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 11417148, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
+      propertyPath: whatIsGround.m_Bits
+      value: 106496
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
   m_IsPrefabParent: 0

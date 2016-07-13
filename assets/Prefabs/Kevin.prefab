@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 10
   jumpVelocity: 20
-  brakeVelocity: 15
+  brakeVelocity: 22
   groundCheck: {fileID: 440654}
   whatIsGround:
     serializedVersion: 2

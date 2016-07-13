@@ -24,8 +24,8 @@ public class PlayerMovementController : MonoBehaviour {
     private Animator mAnimator;
     private Rigidbody2D playerRB;
 
-    
 
+    float x;
 	
 	void Start () {
         mAnimator = GetComponent<Animator>();
@@ -60,8 +60,10 @@ public class PlayerMovementController : MonoBehaviour {
         else {
             Movement();
         }
+        Brake();
         
-
+        
+        
 	}
 
     void Movement() {
@@ -113,8 +115,11 @@ public class PlayerMovementController : MonoBehaviour {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, whatIsGround);
         if (grounded) {
             jumped = false;
-            mAnimator.SetBool("Pulando", false);
+
+            
         }
+        mAnimator.SetBool("Grounded", grounded);
+        mAnimator.SetFloat("VerticalSpeed", playerRB.velocity.y);
 
     }
 

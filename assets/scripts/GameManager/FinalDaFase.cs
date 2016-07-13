@@ -24,7 +24,7 @@ public class FinalDaFase : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col) {
         if (col.gameObject.tag == "Player") {
-            if (!jogadorEsteveAqui) {
+            if (!jogadorEsteveAqui && !GameManager.Instance.GetPlayerMorto()) {
                 
                 GameManager.Instance.SetFinalDaFase(numeroDaFase, true);
                 mCanvas[0].SetActive(false);
