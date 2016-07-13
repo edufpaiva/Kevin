@@ -16,13 +16,13 @@ public class BotoesMovimento : MonoBehaviour {
 
 	void OnMouseStay(){
 
-		personagem.GetComponent<PlayerContoller> ().Botoes (direcao);
+		personagem.GetComponent<PlayerMovementController> ().SetDirection (direcao);
 
 	}
 
 	void OnMouseUp(){
 
-		personagem.GetComponent<PlayerContoller> ().Botoes (0);
+        personagem.GetComponent<PlayerMovementController>().SetDirection(0);
 
 	}
 }

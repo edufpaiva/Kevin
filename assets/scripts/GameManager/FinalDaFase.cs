@@ -5,6 +5,9 @@ public class FinalDaFase : MonoBehaviour {
     private int numeroDaFase;
     private bool jogadorEsteveAqui = false;
 
+    
+    public GameObject[] mCanvas;
+
     // Use this for initialization
     void Awake() {
         
@@ -24,7 +27,9 @@ public class FinalDaFase : MonoBehaviour {
             if (!jogadorEsteveAqui) {
                 
                 GameManager.Instance.SetFinalDaFase(numeroDaFase, true);
-                
+                mCanvas[0].SetActive(false);
+                mCanvas[1].SetActive(true);
+
 
             }
 
