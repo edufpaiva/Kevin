@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Buton_conf : MonoBehaviour
 {
-    private bool MenuOpctionActive = true;
+    private bool MenuOpctionActive = false;
     public GameObject panelmenu;
     public GameObject [] matrix; 
 
