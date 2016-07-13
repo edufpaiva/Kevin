@@ -20,7 +20,15 @@ public class CameraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        seguirKevin();
+        if (GameManager.Instance.GetPlayerMorto()) {
+            
+        } else {
+            seguirKevin();
+        }
+        
+        
+
+        
 	}
 
 
