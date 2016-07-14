@@ -24,8 +24,10 @@ public class PlayerMovementController : MonoBehaviour {
     private Animator mAnimator;
     private Rigidbody2D playerRB;
 
+    public AudioSource jump;
+    
 
-    float x;
+    
 	
 	void Start () {
         mAnimator = GetComponent<Animator>();
@@ -78,17 +80,24 @@ public class PlayerMovementController : MonoBehaviour {
             move = Input.GetAxisRaw("Horizontal");
         }
 
+
+
         mAnimator.SetFloat("Speed", Mathf.Abs(move));
 
         transform.Translate(new Vector2(move, 0f) * velocity * Time.deltaTime);
-        
+
         if (move > 0 && !facingRight)
         {
             Flip();
+            
         }
         else if (move < 0 && facingRight)
         {
             Flip();
+            
+        }
+        else {
+            
         }
 
 
@@ -99,6 +108,7 @@ public class PlayerMovementController : MonoBehaviour {
         if (!jumped) {
             //mAnimator.SetBool("Pulando", true);
             playerRB.velocity = Vector2.up * jumpVelocity;
+            jump.Play();
             jumped = true;
 
         }
@@ -136,6 +146,10 @@ public class PlayerMovementController : MonoBehaviour {
             playerRB.velocity = playerRB.velocity.normalized * brakeVelocity;
 
         }
+    }
+
+    public bool GetGrounded() {
+        return grounded;
     }
 
 }

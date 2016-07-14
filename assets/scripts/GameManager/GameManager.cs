@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour {
     
     private bool[] finalFases = new bool[4];
     private int[] itemSecreto = new int[4];
+
+    
+    
     private int numeroDaFase;
     private float tempoTemporario;
 
@@ -130,6 +133,8 @@ public class GameManager : MonoBehaviour {
 
         return itemSecreto[numeroDaFase];
     }
+
+
 
 
 }
