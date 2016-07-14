@@ -12,7 +12,7 @@ public class PlayerMovementController : MonoBehaviour {
     private float move;
     private bool facingRight = true;
     public float jumpVelocity;
-    private bool jumped;
+    private bool jumped = true;
     
 
     public float brakeVelocity;

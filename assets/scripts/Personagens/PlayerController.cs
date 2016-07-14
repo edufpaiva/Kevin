@@ -28,12 +28,11 @@ public class PlayerController : MonoBehaviour {
                 GameManager.Instance.SetPlayerMorto(true);
                 GameManager.Instance.SetMortes();
                 isDead = true;
-                GetComponent<Animator>().SetBool("Morrendo", true);
+                GetComponent<Animator>().SetTrigger("Dano");
                 evilLaugh.Play();
-                menuMorto[0].SetActive(false);
-                menuMorto[1].SetActive(true);
+                Invoke("TelaMorte", 0.69f);
 
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.7f);
 
             }
 
@@ -45,6 +44,14 @@ public class PlayerController : MonoBehaviour {
     public bool GetIsDead() {
 
         return this.isDead;
+    }
+
+    void TelaMorte()
+    {
+
+        menuMorto[0].SetActive(false);
+        menuMorto[1].SetActive(true);
+
     }
 
 
