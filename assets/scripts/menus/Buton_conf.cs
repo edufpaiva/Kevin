@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Buton_conf : MonoBehaviour
 {
-    private bool MenuOpctionActive = false;
-    public GameObject panelmenu;
-    public GameObject [] matrix; 
+    private bool MenuOpctionActive = true;
+    public GameObject[] matrizDesativar;
+    public GameObject [] matrizAtivar; 
 
 
     // Use this for initialization
@@ -20,19 +20,26 @@ public class Buton_conf : MonoBehaviour
 
         if (MenuOpctionActive)
         {
-            for (int i = 0; i < matrix.Length; i++)
+            for (int i = 0; i < matrizAtivar.Length; i++)
             {
-              matrix[i].SetActive(false); 
+                matrizAtivar[i].SetActive(false); 
             }
-            panelmenu.SetActive(true);
+            for (int i = 0; i < matrizDesativar.Length; i++)
+            {
+
+             matrizDesativar[i].SetActive(true);
+            }
         }
         else
         {
-            for (int i = 0; i < matrix.Length; i++)
+            for (int i = 0; i < matrizAtivar.Length; i++)
             {
-                matrix[i].SetActive(true);
+                matrizAtivar[i].SetActive(true);
             }
-            panelmenu.SetActive(false);
+            for (int i = 0; i < matrizDesativar.Length; i++)
+            {
+                matrizDesativar[i].SetActive(false);
+            }
         }
 	
 	}
