@@ -97,7 +97,7 @@ public class PlayerMovementController : MonoBehaviour {
 
     public void Jump() {
         if (!jumped) {
-            mAnimator.SetBool("Pulando", true);
+            //mAnimator.SetBool("Pulando", true);
             playerRB.velocity = Vector2.up * jumpVelocity;
             jumped = true;
 

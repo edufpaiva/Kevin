@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour {
                 GameManager.Instance.SetMortes();
                 isDead = true;
                 GetComponent<Animator>().SetTrigger("Dano");
+                GetComponent<Animator>().SetBool("Morrendo", true);
                 evilLaugh.Play();
                 Invoke("TelaMorte", 0.69f);
 
