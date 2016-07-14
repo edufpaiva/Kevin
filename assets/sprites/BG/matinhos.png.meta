@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 97777c1b3b7924045bd69c601a55e31d
-timeCreated: 1468451032
+timeCreated: 1468453982
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: matinhos_0
+    21300002: matinhos_1
+    21300004: matinhos_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +41,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +52,69 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: matinhos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 178
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4581738, y: 0.16046599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.55494, y: 112.49756}
+        - {x: -81.55494, y: 100.49756}
+        - {x: -81.55494, y: 10.497559}
+        - {x: -63.55494, y: -15.502441}
+        - {x: -59.55494, y: -21.502441}
+        - {x: 78.44506, y: -21.502441}
+        - {x: 96.44506, y: 0.4975586}
+        - {x: 96.44506, y: 91.49756}
+        - {x: 85.44506, y: 112.49756}
+    - name: matinhos_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 131
+        width: 115
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4856135, y: 0.24377874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.84555, y: 85.453}
+        - {x: -55.84555, y: 75.453}
+        - {x: -55.84555, y: 11.453003}
+        - {x: -40.84555, y: -11.546997}
+        - {x: -22.84555, y: -27.546997}
+        - {x: 22.15445, y: -27.546997}
+        - {x: 28.15445, y: -26.546997}
+        - {x: 59.15445, y: 21.453003}
+        - {x: 59.15445, y: 45.453003}
+        - {x: 48.15445, y: 85.453}
+    - name: matinhos_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 215
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5115427, y: 0.20974444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.018326, y: 66.089134}
+        - {x: 36.018326, y: 62.089134}
+        - {x: 25.018326, y: 90.089134}
+        - {x: -75.981674, y: 90.089134}
+        - {x: -109.981674, y: 77.089134}
+        - {x: -109.981674, y: -0.9108658}
+        - {x: -91.981674, y: -23.910866}
+        - {x: 105.018326, y: -23.910866}
+        - {x: 105.018326, y: 48.089134}
+        - {x: 64.018326, y: 70.089134}
     outline: []
   spritePackingTag: 
   userData: 
