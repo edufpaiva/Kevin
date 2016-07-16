@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 920d3d14451b404468d28ace9031022b
-timeCreated: 1468451032
+timeCreated: 1468631041
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: estalactites ou estalagmites_0
+    21300002: estalactites ou estalagmites_1
+    21300004: estalactites ou estalagmites_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +41,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +52,75 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: estalactites ou estalagmites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 179
+        height: 471
+      alignment: 9
+      pivot: {x: 0.5, y: 0.037678633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 418.25336}
+        - {x: 26.5, y: 453.25336}
+        - {x: 14.5, y: 453.25336}
+        - {x: 11.5, y: 448.25336}
+        - {x: 8.5, y: 169.25336}
+        - {x: -57.5, y: 224.25336}
+        - {x: -62.5, y: 223.25336}
+        - {x: -89.5, y: 78.25336}
+        - {x: -89.5, y: -15.746643}
+        - {x: -77.5, y: -17.746643}
+        - {x: 82.5, y: -17.746643}
+        - {x: 89.5, y: -9.746643}
+        - {x: 89.5, y: 61.253357}
+        - {x: 63.5, y: 127.25336}
+    - name: estalactites ou estalagmites_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 146
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5, y: 0.040435143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 403.9768}
+        - {x: -13, y: 403.9768}
+        - {x: -18, y: 394.9768}
+        - {x: -44, y: 90.97681}
+        - {x: -73, y: 7.9768066}
+        - {x: -73, y: -9.023193}
+        - {x: -30, y: -17.023193}
+        - {x: 66, y: -17.023193}
+        - {x: 73, y: -7.0231934}
+        - {x: 73, y: 21.976807}
+        - {x: 44, y: 68.97681}
+    - name: estalactites ou estalagmites_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 18
+        width: 167
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08362424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 229.09393}
+        - {x: -23.5, y: 229.09393}
+        - {x: -33.5, y: 215.09393}
+        - {x: -83.5, y: 41.09394}
+        - {x: -83.5, y: -7.9060593}
+        - {x: -38.5, y: -20.90606}
+        - {x: 47.5, y: -20.90606}
+        - {x: 83.5, y: -11.906059}
+        - {x: 83.5, y: 37.09394}
+        - {x: 4.5, y: 226.09393}
     outline: []
   spritePackingTag: 
   userData: 
