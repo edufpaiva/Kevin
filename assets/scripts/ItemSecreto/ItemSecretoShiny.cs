@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ItemSecretoShiny : MonoBehaviour {
     public float rotationVelocity;
-    private float spin = 0;
+    public float otherRotationVelocity;
 
 	// Use this for initialization
 	void Start () {
@@ -13,16 +13,11 @@ public class ItemSecretoShiny : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        transform.Rotate(Vector3.left, rotationVelocity * Time.deltaTime);
+        transform.Rotate(Vector3.up, otherRotationVelocity * Time.deltaTime);
 
-        Quaternion target = Quaternion.Euler(0, 0, spin);
-        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * spin);
 
 
-        spin = rotationVelocity;
 
-        if (spin > 360)
-        {
-            spin = 0;
-        }
     }
 }
