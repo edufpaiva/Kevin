@@ -128352,7 +128352,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 22469408, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
       propertyPath: m_LocalPosition.x
@@ -128477,6 +128477,30 @@ Prefab:
     - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Fase02
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1371066008}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StopMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
