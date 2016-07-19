@@ -14,7 +14,7 @@ GameObject:
   - 50: {fileID: 5055350}
   - 114: {fileID: 11406924}
   - 82: {fileID: 8261882}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Espeto
   m_TagString: Death
   m_Icon: {fileID: 0}
