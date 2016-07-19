@@ -25,7 +25,16 @@ public class PassagemSecreta : MonoBehaviour {
 
             for (int i = 0; i < bloco.Length; i++)
             {
-                bloco[i].GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, opacidade);
+                try
+                {
+                    bloco[i].GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, opacidade);
+                }
+                catch (System.Exception)
+                {
+
+                    throw;
+                }
+                
 
             }
             opacidade += timer;
@@ -55,7 +64,18 @@ public class PassagemSecreta : MonoBehaviour {
         if (col.gameObject.tag == "Player") {
             for (int i = 0; i < bloco.Length; i++)
             {
-                bloco[i].GetComponent<SpriteRenderer>().color = invisivel;
+                try
+                {
+                    bloco[i].GetComponent<SpriteRenderer>().color = invisivel;
+                }
+                catch (System.Exception)
+                {
+
+                    throw;
+                }
+                
+                
+                
 
             }
 

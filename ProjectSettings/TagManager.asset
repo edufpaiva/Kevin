@@ -24,7 +24,7 @@ TagManager:
   - 
   - Background
   - 
-  - 
+  - Espeto
   - parede
   - obstaculos
   - chao
@@ -70,4 +70,7 @@ TagManager:
     locked: 0
   - name: Morcego
     uniqueID: 1538541905
+    locked: 0
+  - name: 
+    uniqueID: 4069179929
     locked: 0

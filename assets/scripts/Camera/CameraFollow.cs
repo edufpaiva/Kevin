@@ -16,7 +16,9 @@ public class CameraFollow : MonoBehaviour {
 	void Start () {
         kevin = GameObject.FindGameObjectWithTag("Player");
         posicao.z = -30;
-	}
+        transform.position = kevin.transform.position;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,13 +35,24 @@ public class CameraFollow : MonoBehaviour {
 
 
     void seguirKevin() {
-        if (kevin.transform.position.x > -10 && kevin.transform.position.x < 33) {
-            
+        if (kevin.transform.position.x < maxLeft || kevin.transform.position.x > maxRight)
+        {
+
 
         }
+        else {
+            posicao.x = kevin.transform.position.x;
+        }
+        if (kevin.transform.position.y > maxUp || kevin.transform.position.y < maxDown)
+        {
 
-        posicao.x = kevin.transform.position.x;
-        posicao.y = kevin.transform.position.y + alturaSolo;
+        }
+        else {
+            posicao.y = kevin.transform.position.y + alturaSolo;
+        }
+
+        
+        
 
         transform.position = posicao;
     }

@@ -6,6 +6,7 @@ public class Espeto : MonoBehaviour {
     public float lateral;
     private bool jaFoi = false;
     public AudioSource espeto;
+    public float timer = 0;
 	// Use this for initialization
 	void Start () {
 	
@@ -20,8 +21,7 @@ public class Espeto : MonoBehaviour {
         if (!jaFoi) {
             if (col.gameObject.tag == "Player")
             {
-                espeto.Play();
-                transform.position = new Vector3((transform.position.x + lateral), (transform.position.y + altura), transform.position.z);
+                Invoke("SubirEspeto", timer);
                 //GetComponent<Rigidbody2D>().velocity = Vector2.up * altura;
                 
             }
@@ -29,6 +29,15 @@ public class Espeto : MonoBehaviour {
             jaFoi = true;
         }
         
+
+
+    }
+
+    void SubirEspeto() {
+
+
+        espeto.Play();
+        transform.position = new Vector3((transform.position.x + lateral), (transform.position.y + altura), transform.position.z);
 
 
     }

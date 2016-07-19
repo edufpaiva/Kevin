@@ -219,11 +219,11 @@ GameObject:
   - 50: {fileID: 5058782}
   - 61: {fileID: 6197986}
   - 58: {fileID: 5808626}
-  - 82: {fileID: 8266150}
   - 114: {fileID: 11417148}
   - 114: {fileID: 11403166}
-  - 82: {fileID: 8282252}
   - 114: {fileID: 11443988}
+  - 82: {fileID: 8266150}
+  - 82: {fileID: 8282252}
   - 82: {fileID: 8233992}
   m_Layer: 14
   m_Name: Kevin
@@ -1292,9 +1292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evilLaugh: {fileID: 8266150}
-  menuMorto:
-  - {fileID: 0}
-  - {fileID: 0}
+  menuMorto: []
 --- !u!114 &11417148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1307,12 +1305,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 10
-  jumpVelocity: 20
+  jumpVelocity: 19.35
   brakeVelocity: 22
   groundCheck: {fileID: 440654}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 40960
+    m_Bits: 45056
   grounded: 0
   jump: {fileID: 8233992}
 --- !u!114 &11443988
