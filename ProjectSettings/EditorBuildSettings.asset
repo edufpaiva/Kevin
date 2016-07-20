@@ -12,6 +12,8 @@ EditorBuildSettings:
   - enabled: 1
     path: assets/Scenes/Menu.unity
   - enabled: 1
+    path: assets/Scenes/Fase_selct.unity
+  - enabled: 1
     path: assets/Scenes/conf.unity
   - enabled: 1
     path: assets/Scenes/creditos.unity
