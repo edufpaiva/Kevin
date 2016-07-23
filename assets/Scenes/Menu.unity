@@ -358,6 +358,10 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 82ba9897bf783b74280cba0d48444dd4, type: 3}
+    - target: {fileID: 11457158, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
   m_IsPrefabParent: 0
@@ -538,6 +542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 090644d02c9c26140af13d471f048bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicaSlide: {fileID: 1228169565}
+  efeitoSlide: {fileID: 1090621798}
+  Manager: {fileID: 860620070}
   masterMixer: {fileID: 24100000, guid: 7269fce895e38ab4ba0be27fef84db9d, type: 2}
 --- !u!224 &724312869
 RectTransform:
@@ -633,6 +640,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9bdc874d3a6acd34b8b491d9e232f793, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &860620070 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 170176, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+  m_PrefabInternal: {fileID: 81402917}
 --- !u!1 &921847702
 GameObject:
   m_ObjectHideFlags: 0
