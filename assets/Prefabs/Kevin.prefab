@@ -1327,6 +1327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evilLaugh: {fileID: 8266150}
   menuMorto: []
+  kevinMorto: {fileID: 161016, guid: 3b71a2ea84050da4fa9c9c5bec995e1e, type: 2}
 --- !u!114 &11417148
 MonoBehaviour:
   m_ObjectHideFlags: 1

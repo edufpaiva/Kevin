@@ -6,8 +6,15 @@ public class NumeroDaFase : MonoBehaviour {
 
     void Awake() {
         GameManager.Instance.SetNumeroDaFase(numeroDaFase);
-        GameManager.Instance.GetComponent<SceneManager>().PlayMusic(numeroDaFase);
+        
+        
 
+    }
+    void Start() {
+        if (!GameManager.Instance.GetComponent<SceneManager>().IsPlaying(numeroDaFase))
+        {
+            GameManager.Instance.GetComponent<SceneManager>().PlayMusic(numeroDaFase);
+        }
     }
 
 }

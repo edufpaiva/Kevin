@@ -22,6 +22,9 @@ public class SceneManager : MonoBehaviour {
         musicas[i].Stop();
     }
 
+    public bool IsPlaying(int i) {
+        return musicas[i].isPlaying;
 
+    }
 
 }

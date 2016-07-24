@@ -21286,6 +21286,10 @@ Prefab:
       propertyPath: musicas.Array.data[1]
       value: 
       objectReference: {fileID: 1940104447}
+    - target: {fileID: 8286664, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
   m_IsPrefabParent: 0
@@ -38113,6 +38117,10 @@ Prefab:
     - target: {fileID: 141952, guid: 0724690a4c1df83478ce3cbe519c07f5, type: 2}
       propertyPath: m_Layer
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 25194192, guid: 0724690a4c1df83478ce3cbe519c07f5, type: 2}
+      propertyPath: m_ColliderMask.m_Bits
+      value: 20992
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0724690a4c1df83478ce3cbe519c07f5, type: 2}
@@ -57533,6 +57541,10 @@ Prefab:
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 25194192, guid: 0724690a4c1df83478ce3cbe519c07f5, type: 2}
+      propertyPath: m_ColliderMask.m_Bits
+      value: 20992
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0724690a4c1df83478ce3cbe519c07f5, type: 2}
   m_IsPrefabParent: 0
@@ -58436,7 +58448,7 @@ GameObject:
   - 4: {fileID: 900986187}
   m_Layer: 13
   m_Name: ChaoGrupo
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

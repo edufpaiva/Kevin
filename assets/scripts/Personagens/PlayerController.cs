@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
     private bool isDead;
     public AudioSource evilLaugh;
     public GameObject[] menuMorto;
+    public GameObject kevinMorto;
 
     
 
@@ -30,9 +31,9 @@ public class PlayerController : MonoBehaviour {
                 isDead = true;
                 GetComponent<Animator>().SetTrigger("Dano");
                 GetComponent<Animator>().SetBool("Morrendo", true);
-                evilLaugh.Play();
+                
                 Invoke("TelaMorte", 0.69f);
-
+                Instantiate(kevinMorto, transform.position, Quaternion.identity);
                 Destroy(gameObject, 0.7f);
 
             }

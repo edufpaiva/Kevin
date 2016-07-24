@@ -34,17 +34,19 @@ public class GameManager : MonoBehaviour {
         else {
             Destroy(gameObject);
         }
-
-    }
-    
-	void Start () {
         mortes = PlayerPrefs.GetInt("Mortes");
-        for (int i = 0; i < finalFases.Length; i++) {
+        for (int i = 0; i < finalFases.Length; i++)
+        {
             finalFases[i] = false;
             itemSecreto[i] = PlayerPrefs.GetInt("ItemSecreto" + i.ToString());
 
         }
-    
+
+
+    }
+
+    void Start () {
+       
 
     }
 
