@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 6b2a5d20de454344590f104deee0540d
+timeCreated: 1469325525
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Evil flower 1_0
+    21300002: Evil flower 1_1
+    21300004: Evil flower 1_2
+    21300006: Evil flower 1_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Evil flower 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323
+        height: 516
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92, y: 169}
+        - {x: -91, y: 232}
+        - {x: -55, y: 240}
+        - {x: -27, y: 246}
+        - {x: -2, y: 261}
+        - {x: 0, y: 270}
+        - {x: 0, y: 443}
+        - {x: -7, y: 460}
+        - {x: -44, y: 484}
+        - {x: -92, y: 478}
+        - {x: -108, y: 516}
+        - {x: -185, y: 516}
+        - {x: -216, y: 491}
+        - {x: -246, y: 476}
+        - {x: -312, y: 453}
+        - {x: -323, y: 416}
+        - {x: -323, y: 367}
+        - {x: -301, y: 339}
+        - {x: -317, y: 324}
+        - {x: -323, y: 304}
+        - {x: -323, y: 272}
+        - {x: -301, y: 235}
+        - {x: -246, y: 232}
+        - {x: -183, y: 187}
+        - {x: -125, y: 175}
+        - {x: -102, y: 77}
+        - {x: -105, y: 37}
+        - {x: -163, y: 8}
+        - {x: -163, y: 4}
+        - {x: -157, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 9}
+        - {x: -69, y: 86}
+    - name: Evil flower 1_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 0
+        width: 349
+        height: 501
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 225}
+        - {x: -21, y: 261}
+        - {x: -25, y: 325}
+        - {x: -53, y: 341}
+        - {x: -25, y: 383}
+        - {x: -37, y: 438}
+        - {x: -63, y: 451}
+        - {x: -117, y: 440}
+        - {x: -130, y: 487}
+        - {x: -152, y: 501}
+        - {x: -195, y: 501}
+        - {x: -214, y: 494}
+        - {x: -235, y: 464}
+        - {x: -306, y: 447}
+        - {x: -323, y: 435}
+        - {x: -349, y: 404}
+        - {x: -349, y: 378}
+        - {x: -342, y: 341}
+        - {x: -349, y: 316}
+        - {x: -349, y: 257}
+        - {x: -321, y: 214}
+        - {x: -262, y: 199}
+        - {x: -222, y: 171}
+        - {x: -200, y: 165}
+        - {x: -187, y: 163}
+        - {x: -154, y: 164}
+        - {x: -123, y: 165}
+        - {x: -101, y: 75}
+        - {x: -160, y: 11}
+        - {x: -164, y: 4}
+        - {x: -157, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 9}
+        - {x: -54, y: 73}
+        - {x: -108, y: 217}
+        - {x: -85, y: 216}
+    - name: Evil flower 1_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 0
+        width: 371
+        height: 360
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 211}
+        - {x: -74, y: 237}
+        - {x: -49, y: 264}
+        - {x: -57, y: 313}
+        - {x: -89, y: 345}
+        - {x: -121, y: 346}
+        - {x: -139, y: 338}
+        - {x: -174, y: 360}
+        - {x: -235, y: 360}
+        - {x: -252, y: 349}
+        - {x: -345, y: 317}
+        - {x: -371, y: 280}
+        - {x: -371, y: 234}
+        - {x: -370, y: 232}
+        - {x: -371, y: 220}
+        - {x: -371, y: 149}
+        - {x: -363, y: 130}
+        - {x: -351, y: 118}
+        - {x: -322, y: 111}
+        - {x: -274, y: 118}
+        - {x: -271, y: 84}
+        - {x: -257, y: 65}
+        - {x: -233, y: 54}
+        - {x: -182, y: 61}
+        - {x: -109, y: 119}
+        - {x: -109, y: 50}
+        - {x: -180, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 9}
+        - {x: -40, y: 51}
+        - {x: -70, y: 131}
+        - {x: -42, y: 169}
+    - name: Evil flower 1_3
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 347
+        height: 473
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 180}
+        - {x: -35, y: 187}
+        - {x: -4, y: 238}
+        - {x: -35, y: 296}
+        - {x: -17, y: 347}
+        - {x: -34, y: 398}
+        - {x: -55, y: 416}
+        - {x: -106, y: 423}
+        - {x: -126, y: 407}
+        - {x: -144, y: 450}
+        - {x: -171, y: 473}
+        - {x: -224, y: 473}
+        - {x: -245, y: 459}
+        - {x: -254, y: 435}
+        - {x: -252, y: 405}
+        - {x: -306, y: 425}
+        - {x: -347, y: 392}
+        - {x: -347, y: 332}
+        - {x: -321, y: 286}
+        - {x: -347, y: 264}
+        - {x: -347, y: 230}
+        - {x: -346, y: 194}
+        - {x: -305, y: 166}
+        - {x: -249, y: 155}
+        - {x: -207, y: 105}
+        - {x: -143, y: 126}
+        - {x: -132, y: 150}
+        - {x: -128, y: 163}
+        - {x: -102, y: 59}
+        - {x: -171, y: 3}
+        - {x: -165, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 7}
+        - {x: -62, y: 70}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
