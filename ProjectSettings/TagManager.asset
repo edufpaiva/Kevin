@@ -31,7 +31,7 @@ TagManager:
   - Player
   - plataforma
   - FinalDaFase
-  - 
+  - Parede
   - 
   - 
   - 
@@ -56,6 +56,9 @@ TagManager:
   - name: Obstaculos
     uniqueID: 325997233
     locked: 0
+  - name: Corpse
+    uniqueID: 4069179929
+    locked: 0
   - name: Chao
     uniqueID: 2794083405
     locked: 0
@@ -70,7 +73,4 @@ TagManager:
     locked: 0
   - name: Morcego
     uniqueID: 1538541905
-    locked: 0
-  - name: 
-    uniqueID: 4069179929
     locked: 0

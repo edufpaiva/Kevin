@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.8, y: 2.1, z: 0}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c7a1e479785c74fa20303ea1119583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objeto: {fileID: 198056, guid: 50a865666e3ee3941b59f3ce4245f5d6, type: 2}
+  objeto: {fileID: 103926, guid: 64c1f5956866cc2439f456962fa5dfc6, type: 2}
   tempo: 0.5
 --- !u!212 &21250770
 SpriteRenderer:

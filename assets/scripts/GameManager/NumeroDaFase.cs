@@ -11,6 +11,7 @@ public class NumeroDaFase : MonoBehaviour {
 
     }
     void Start() {
+        GameManager.Instance.SetNumeroDaFase(numeroDaFase);
         if (!GameManager.Instance.GetComponent<SceneManager>().IsPlaying(numeroDaFase))
         {
             GameManager.Instance.GetComponent<SceneManager>().PlayMusic(numeroDaFase);

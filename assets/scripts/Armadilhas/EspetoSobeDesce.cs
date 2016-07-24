@@ -2,26 +2,39 @@
 using System.Collections;
 
 public class EspetoSobeDesce : MonoBehaviour {
-    public float velocidade;
-    private Vector3 startPosition;
-    public float x, y;
-    public float intervalo;
 
-	// Use this for initialization
-	void Start () {
-        startPosition = transform.position;
-        Invoke("Up", intervalo);
-	}
-	
-	// Update is called once per frame
-	void Up () {
-        transform.Translate(new Vector2(x,y) * velocidade * Time.deltaTime);
-        Invoke("Down", 0.5f);
+    public Vector3 cima = Vector3.zero, baixo = Vector3.zero;
+    public float intervaloSobeDesce = 5, intervaloEntreMovimento = 1.5f;
+    private bool up;
+
+    // Use this for initialization
+    void Start() {
+        Up();
+        if (cima == Vector3.zero && baixo == Vector3.zero) {
+            baixo = transform.position;
+            cima = transform.position;
+            cima.y += 0.97f;
+
+        }
+    }
+    void Update() {
+        if (up)
+        {
+            transform.position = Vector3.Lerp(transform.position, cima, Time.deltaTime * intervaloSobeDesce);
+        }
+        else {
+            transform.position = Vector3.Lerp(transform.position, baixo, Time.deltaTime * intervaloSobeDesce);
+        }
+
+        
+
+    }
+    void Up() {
+        up = !up;
+        Invoke("Up", intervaloEntreMovimento);
+
     }
 
-    void Down () {
-        transform.Translate(new Vector2(-x, -y) * velocidade * Time.deltaTime);
-        Invoke("Up", intervalo);
-    }
+    
     
 }
