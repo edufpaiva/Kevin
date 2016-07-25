@@ -49070,6 +49070,10 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!4 &709864820 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 488046, guid: 9c0f4608d6f703e4687c4115f48a1356, type: 2}
+  m_PrefabInternal: {fileID: 1835093214}
 --- !u!1 &712099881
 GameObject:
   m_ObjectHideFlags: 0
@@ -119490,6 +119494,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1920278440}
   - 212: {fileID: 1920278439}
+  - 114: {fileID: 1920278441}
   m_Layer: 0
   m_Name: Here he comes
   m_TagString: Untagged
@@ -119540,6 +119545,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 209548496}
   m_RootOrder: 2
+--- !u!114 &1920278441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920278438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee02bc789ff52ac4ba721c0518f4670d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 709864820}
+  damping: 4
+  lookAheadFactor: 3
+  lookAheadReturnSpeed: 0.5
+  lookAheadMoveThreshold: 0.1
+  altura: 6
 --- !u!1 &1921722640
 GameObject:
   m_ObjectHideFlags: 0
