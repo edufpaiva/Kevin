@@ -36,9 +36,9 @@ public class Espeto : MonoBehaviour {
     void SubirEspeto() {
 
 
-        espeto.Play();
+        
         transform.position = new Vector3((transform.position.x + lateral), (transform.position.y + altura), transform.position.z);
-
+        espeto.Play();
 
     }
 }
