@@ -2862,9 +2862,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fasenum: 4
-  tempo2star: 0
-  tempo3star: 0
-  ativatodasStars: 1
+  tempo2star: 26
+  tempo3star: 22
+  ativatodasStars: 0
   tempofase: {fileID: 2090768870}
   stars:
   - {fileID: 1265537091}
@@ -3977,7 +3977,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2096663626
 RectTransform:
   m_ObjectHideFlags: 0
