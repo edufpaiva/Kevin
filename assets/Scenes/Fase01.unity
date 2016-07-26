@@ -15807,6 +15807,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 233786603}
   - 114: {fileID: 233786602}
+  - 81: {fileID: 233786604}
   m_Layer: 0
   m_Name: CameraFollow
   m_TagString: Untagged
@@ -15844,6 +15845,13 @@ Transform:
   - {fileID: 1416620790}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!81 &233786604
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 233786601}
+  m_Enabled: 1
 --- !u!4 &233856412 stripped
 Transform:
   m_PrefabParentObject: {fileID: 448904, guid: 5455749e20ead1944831f880ca59b4b0, type: 2}
@@ -16974,7 +16982,7 @@ Transform:
   m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
   m_LocalPosition: {x: 0, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -21373,7 +21381,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
       propertyPath: musicas.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 417870, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
       propertyPath: m_LocalPosition.x
@@ -79036,6 +79044,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 21248742, guid: 910d7b68968e8bf4d87472ad565fbb92, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 910d7b68968e8bf4d87472ad565fbb92, type: 2}
   m_IsPrefabParent: 0
@@ -88480,7 +88492,6 @@ GameObject:
   - 20: {fileID: 1416620789}
   - 92: {fileID: 1416620788}
   - 124: {fileID: 1416620787}
-  - 81: {fileID: 1416620786}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -88488,13 +88499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1416620786
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1416620785}
-  m_Enabled: 1
 --- !u!124 &1416620787
 Behaviour:
   m_ObjectHideFlags: 0

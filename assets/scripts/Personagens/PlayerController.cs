@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
     public AudioSource evilLaugh;
     public GameObject[] menuMorto;
     public GameObject kevinMorto;
+    public GameObject kevinGanhador;
+
 
     
 
@@ -14,6 +16,11 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
         isDead = false;
         GameManager.Instance.SetPlayerMorto(false);
+      
+        // teste de audio por proximidade do objeto
+        //  GetComponent<AudioListener>().gameObject.SetActive(false);
+
+       // GetComponent<AudioListener>().gameObject.SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -39,6 +46,12 @@ public class PlayerController : MonoBehaviour {
             }
 
 
+        }
+
+        if (col.gameObject.tag == "FinalDaFase")
+        {
+            Instantiate(kevinGanhador, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
 
     }

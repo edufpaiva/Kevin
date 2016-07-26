@@ -1135,7 +1135,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1210,7 +1210,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1285,7 +1285,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1328,6 +1328,7 @@ MonoBehaviour:
   evilLaugh: {fileID: 8266150}
   menuMorto: []
   kevinMorto: {fileID: 161016, guid: 3b71a2ea84050da4fa9c9c5bec995e1e, type: 2}
+  kevinGanhador: {fileID: 195786, guid: 56b1aa9a68f6f1443983348273ed1bf0, type: 2}
 --- !u!114 &11417148
 MonoBehaviour:
   m_ObjectHideFlags: 1

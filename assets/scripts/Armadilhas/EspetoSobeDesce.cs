@@ -6,6 +6,7 @@ public class EspetoSobeDesce : MonoBehaviour {
     public Vector3 cima = Vector3.zero, baixo = Vector3.zero;
     public float intervaloSobeDesce = 5, intervaloEntreMovimento = 1.5f;
     private bool up;
+    public AudioSource lamina;
 
     // Use this for initialization
     void Start() {
@@ -32,6 +33,12 @@ public class EspetoSobeDesce : MonoBehaviour {
     void Up() {
         up = !up;
         Invoke("Up", intervaloEntreMovimento);
+        if (lamina != null)
+        {
+            lamina.Play();
+        }
+        
+
 
     }
 

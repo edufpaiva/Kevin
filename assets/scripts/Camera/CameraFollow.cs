@@ -15,7 +15,7 @@ public class CameraFollow : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         kevin = GameObject.FindGameObjectWithTag("Player");
-        posicao.z = -30;
+        posicao.z = 0;
         transform.position = kevin.transform.position;
 
     }

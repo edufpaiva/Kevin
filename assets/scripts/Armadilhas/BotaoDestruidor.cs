@@ -7,11 +7,20 @@ public class BotaoDestruidor : MonoBehaviour {
     public GameObject[] toBeActive;
     public float timer = 5;
     public float intervalo = 0.3f;
+
+    public AudioSource somBotao;
+    private bool playSomBotao = false;
 	
     void OnCollisionStay2D(Collision2D col) {
         
         if (col.gameObject.tag == "Player")
         {
+            if (!playSomBotao)
+            {
+                
+                somBotao.Play();
+                playSomBotao = true;
+            }
             botao.GetComponent<Animator>().SetBool("Pressed", true);
             if (toBeDestroyed.Length >= 1)
             {
