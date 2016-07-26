@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
     public AudioSource evilLaugh;
     public GameObject[] menuMorto;
     public GameObject kevinMorto;
+    public GameObject kevinGanhador;
+
 
     
 
@@ -39,6 +41,12 @@ public class PlayerController : MonoBehaviour {
             }
 
 
+        }
+
+        if (col.gameObject.tag == "FinalDaFase")
+        {
+            Instantiate(kevinGanhador, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
 
     }
