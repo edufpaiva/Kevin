@@ -12,6 +12,7 @@ GameObject:
   - 50: {fileID: 5062402}
   - 68: {fileID: 6804240}
   - 114: {fileID: 11403560}
+  - 82: {fileID: 8212344}
   m_Layer: 0
   m_Name: EspetoSobeDesce
   m_TagString: Death
@@ -65,6 +66,81 @@ EdgeCollider2D:
   - {x: -3.6550002, y: 0}
   - {x: -0.002662341, y: 7.1435623}
   - {x: 3.6550002, y: 0}
+--- !u!82 &8212344
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117050}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24328958, guid: 7269fce895e38ab4ba0be27fef84db9d,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 442e6eb77df3dbe44b44a7d2a4ff8302, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 8
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0.63611114
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &11403560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80,6 +156,7 @@ MonoBehaviour:
   baixo: {x: 0, y: 0, z: 0}
   intervaloSobeDesce: 6
   intervaloEntreMovimento: 2
+  lamina: {fileID: 8212344}
 --- !u!212 &21235580
 SpriteRenderer:
   m_ObjectHideFlags: 1

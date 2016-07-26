@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EspetoCaindo : MonoBehaviour {
     public float velocidadeDeQueda;
+    public AudioSource hitTheGroundSound;
+    private bool hitTheGroundPlayed = false;
 
     private Rigidbody2D espeto;
 
@@ -24,5 +26,16 @@ public class EspetoCaindo : MonoBehaviour {
 
         }
 
+    }
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Chao")
+        {
+            if (!hitTheGroundPlayed)
+            {
+                hitTheGroundSound.Play();
+                hitTheGroundPlayed = false;
+            }
+        }
     }
 }

@@ -16,6 +16,11 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
         isDead = false;
         GameManager.Instance.SetPlayerMorto(false);
+      
+        // teste de audio por proximidade do objeto
+        //  GetComponent<AudioListener>().gameObject.SetActive(false);
+
+       // GetComponent<AudioListener>().gameObject.SetActive(true);
 	}
 	
 	// Update is called once per frame

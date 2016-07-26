@@ -30,6 +30,7 @@ GameObject:
   - 50: {fileID: 5031162}
   - 61: {fileID: 6105686}
   - 68: {fileID: 6819916}
+  - 82: {fileID: 8295434}
   m_Layer: 12
   m_Name: EspetoQueCai
   m_TagString: Untagged
@@ -63,6 +64,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 460522}
   m_RootOrder: 0
@@ -75,6 +77,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 1, w: -0.00000016292068}
   m_LocalPosition: {x: 0.1470089, y: 2.32, z: 0}
   m_LocalScale: {x: 0.13, y: 0.17, z: 0.16792598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
   m_Children:
   - {fileID: 446094}
   - {fileID: 479900}
@@ -89,6 +92,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 460522}
   m_RootOrder: 1
@@ -202,6 +206,81 @@ EdgeCollider2D:
   - {x: -1.0667579, y: 0.72087955}
   - {x: 0.021811262, y: 3.7534418}
   - {x: 1.3180702, y: 0.7392555}
+--- !u!82 &8295434
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110214}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24369364, guid: 7269fce895e38ab4ba0be27fef84db9d,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 352521cf6383f9e4fb5d8994c8510885, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &11434322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,6 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeDeQueda: -5
+  hitTheGroundSound: {fileID: 8295434}
 --- !u!212 &21279922
 SpriteRenderer:
   m_ObjectHideFlags: 1
