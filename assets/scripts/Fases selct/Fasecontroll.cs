@@ -39,11 +39,11 @@ public class Fasecontroll : MonoBehaviour
                 stars[0].SetActive(true);
 
             }
-            if (tempo<tempo2star && tempo !=0)
+            if (tempo<=tempo2star && tempo !=0)
             {
                 stars[1].SetActive(true);
             }
-            if (tempo<tempo3star && tempo !=0)
+            if (tempo<=tempo3star && tempo !=0)
             {
                 stars[2].SetActive(true);
             }
