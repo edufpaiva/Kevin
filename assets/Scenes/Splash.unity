@@ -269,10 +269,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
-      propertyPath: musicas.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 417870, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.041965187
@@ -305,14 +301,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
-      propertyPath: musicas.Array.data[0]
-      value: 
-      objectReference: {fileID: 1166635777}
-    - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
-      propertyPath: musicas.Array.data[1]
-      value: 
-      objectReference: {fileID: 1166635776}
+    - target: {fileID: 8286664, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272640, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8214224, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264454, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276598, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
   m_IsPrefabParent: 0
@@ -397,16 +405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 824f39acddab5a740944e245b6bda3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1166635776 stripped
-AudioSource:
-  m_PrefabParentObject: {fileID: 8272640, guid: cafc2ac8d1dc2e941894a7ced6fe1be3,
-    type: 2}
-  m_PrefabInternal: {fileID: 294133729}
---- !u!82 &1166635777 stripped
-AudioSource:
-  m_PrefabParentObject: {fileID: 8286664, guid: cafc2ac8d1dc2e941894a7ced6fe1be3,
-    type: 2}
-  m_PrefabInternal: {fileID: 294133729}
 --- !u!1 &1236476832
 GameObject:
   m_ObjectHideFlags: 0
