@@ -20041,7 +20041,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11466876, guid: b3331dfc430f39a4e86cc2a8291c8d28, type: 2}
       propertyPath: m_Text
-      value: ARE YOU SURE YOU WANT TO BACK TO THE MENU???
+      value: ARE YOU SURE YOU WANT TO GO BACK TO THE MENU???
       objectReference: {fileID: 0}
     - target: {fileID: 11468878, guid: b3331dfc430f39a4e86cc2a8291c8d28, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

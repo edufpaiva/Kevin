@@ -27,7 +27,7 @@ public class SunFollow : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (target == null)
+        if (!GameManager.Instance.GetPlayerMorto())
         {
             // only update lookahead pos if accelerating or changed direction
             float xMoveDelta = (target.position - m_LastTargetPosition).x;
