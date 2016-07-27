@@ -27,4 +27,17 @@ public class SceneManager : MonoBehaviour {
 
     }
 
+
+    public void SetMenuMusic() {
+        for (int i = 1; i < musicas.Length; i++)
+        {
+            musicas[i].Stop();
+        }
+        if (!musicas[0].isPlaying)
+        {
+            musicas[0].Play();
+        }
+
+    }
+
 }
