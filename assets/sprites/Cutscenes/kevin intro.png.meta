@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: cdf4d15e99ddd7e44869025369b84a63
+timeCreated: 1469577115
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kevin intro_0
+    21300002: kevin intro_2
+    21300004: kevin intro_4
+    21300006: kevin intro_5
+    21300008: kevin intro_6
+    21300010: kevin intro_7
+    21300012: kevin intro_8
+    21300014: kevin intro_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kevin intro_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 511
+        width: 539
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.5, y: 77.5}
+        - {x: -269.5, y: 77.5}
+        - {x: -269.5, y: -77.5}
+        - {x: -56.5, y: -77.5}
+        - {x: -44.5, y: -58.5}
+        - {x: -44.5, y: 5.5}
+        - {x: -55.5, y: 67.5}
+      - - {x: 269.5, y: -55.5}
+        - {x: 269.5, y: 77.5}
+        - {x: 212.5, y: 77.5}
+        - {x: 114.5, y: 70.5}
+        - {x: 64.5, y: 50.5}
+        - {x: 53.5, y: 77.5}
+        - {x: -7.5, y: 77.5}
+        - {x: -23.5, y: 54.5}
+        - {x: -23.5, y: -68.5}
+        - {x: 108.5, y: -68.5}
+        - {x: 132.5, y: -60.5}
+        - {x: 215.5, y: -68.5}
+        - {x: 242.5, y: -68.5}
+    - name: kevin intro_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 234
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -113, y: 72}
+        - {x: -117, y: 56}
+        - {x: -117, y: -72}
+        - {x: 24, y: -72}
+        - {x: 66, y: 31}
+        - {x: 66, y: 72}
+      - - {x: 49, y: -52}
+        - {x: 53, y: -65}
+        - {x: 113, y: -65}
+        - {x: 117, y: -62}
+        - {x: 117, y: 50}
+        - {x: 68, y: 50}
+        - {x: 49, y: 34}
+    - name: kevin intro_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 176
+        width: 199
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.5, y: 76.5}
+        - {x: -99.5, y: -76.5}
+        - {x: 74.5, y: -76.5}
+        - {x: 99.5, y: -58.5}
+        - {x: 99.5, y: 72.5}
+        - {x: 69.5, y: 76.5}
+    - name: kevin intro_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 207
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 53}
+        - {x: -31.5, y: 46}
+        - {x: -31.5, y: -44}
+        - {x: -12.5, y: -53}
+        - {x: 31.5, y: -53}
+        - {x: 31.5, y: 53}
+    - name: kevin intro_6
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 180
+        width: 319
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 159.5, y: -6.5}
+        - {x: 159.5, y: 77.5}
+        - {x: 155.5, y: 79.5}
+        - {x: 85.5, y: 79.5}
+        - {x: 31.5, y: 61.5}
+        - {x: -84.5, y: 62.5}
+        - {x: -159.5, y: 55.5}
+        - {x: -159.5, y: -79.5}
+        - {x: -107.5, y: -79.5}
+        - {x: -98.5, y: -77.5}
+        - {x: -52.5, y: -60.5}
+        - {x: 79.5, y: -78.5}
+        - {x: 152.5, y: -53.5}
+    - name: kevin intro_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 110
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 71}
+        - {x: -55, y: -67}
+        - {x: -54, y: -71}
+        - {x: 42, y: -71}
+        - {x: 55, y: -32}
+        - {x: 55, y: 71}
+    - name: kevin intro_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 8
+        width: 93
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 55}
+        - {x: -46.5, y: 43}
+        - {x: -46.5, y: -31}
+        - {x: -42.5, y: -51}
+        - {x: -27.5, y: -55}
+        - {x: 36.5, y: -55}
+        - {x: 46.5, y: -43}
+        - {x: 46.5, y: 52}
+        - {x: 45.5, y: 55}
+    - name: kevin intro_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 4
+        width: 354
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 71}
+        - {x: 75, y: 71}
+        - {x: 63, y: 41}
+        - {x: 7, y: 70}
+        - {x: -35, y: 66}
+        - {x: -63, y: 50}
+        - {x: -162, y: 58}
+        - {x: -177, y: 46}
+        - {x: -177, y: -60}
+        - {x: -174, y: -71}
+        - {x: 123, y: -71}
+        - {x: 165, y: -62}
+        - {x: 177, y: -51}
+        - {x: 177, y: 7}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

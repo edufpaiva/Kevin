@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 653267c70fb7ce841941e0a903ec32e7
+timeCreated: 1469577152
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kevin outro_0
+    21300002: kevin outro_2
+    21300004: kevin outro_3
+    21300006: kevin outro_4
+    21300008: kevin outro_5
+    21300010: kevin outro_6
+    21300012: kevin outro_7
+    21300014: kevin outro_8
+    21300016: kevin outro_9
+    21300018: kevin outro_10
+    21300020: kevin outro_11
+    21300022: kevin outro_12
+    21300024: kevin outro_13
+    21300026: kevin outro_14
+    21300028: kevin outro_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kevin outro_0
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 520
+        width: 224
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.279663, y: 40.748657}
+        - {x: -61.279663, y: 37.748657}
+        - {x: -61.279663, y: -36.251343}
+        - {x: -60.279663, y: -39.251343}
+        - {x: 61.720337, y: -39.251343}
+        - {x: 61.720337, y: 40.748657}
+    - name: kevin outro_2
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 519
+        width: 292
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.071106, y: 40.20108}
+        - {x: -7.928894, y: 34.20108}
+        - {x: -33.928894, y: 19.20108}
+        - {x: -42.928894, y: 9.20108}
+        - {x: -44.928894, y: 4.2010803}
+        - {x: -42.928894, y: 11.20108}
+        - {x: -35.928894, y: 24.20108}
+        - {x: -32.928894, y: 37.20108}
+        - {x: -37.928894, y: 40.20108}
+        - {x: -67.928894, y: 40.20108}
+        - {x: -79.928894, y: 30.20108}
+        - {x: -79.928894, y: -39.79892}
+        - {x: 63.071106, y: -39.79892}
+        - {x: 72.071106, y: -38.79892}
+        - {x: 81.071106, y: -30.79892}
+        - {x: 81.071106, y: 40.20108}
+    - name: kevin outro_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 175
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.909622, y: 40.018723}
+        - {x: -47.909622, y: 36.018723}
+        - {x: -47.909622, y: 13.018723}
+        - {x: -38.909622, y: -34.981277}
+        - {x: -31.909622, y: -38.981277}
+        - {x: 49.090378, y: -38.981277}
+        - {x: 49.090378, y: 24.018723}
+        - {x: 9.090378, y: 40.018723}
+    - name: kevin outro_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 203
+        width: 263
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.581284, y: 39.1615}
+        - {x: -71.58128, y: 30.161499}
+        - {x: -71.58128, y: -38.8385}
+        - {x: 72.41872, y: -38.8385}
+        - {x: 73.41872, y: -35.8385}
+        - {x: 73.41872, y: 39.1615}
+    - name: kevin outro_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 213
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.768463, y: 36.137436}
+        - {x: -12.231537, y: 26.137436}
+        - {x: -22.231537, y: 18.137436}
+        - {x: -22.231537, y: -31.862564}
+        - {x: -21.231537, y: -34.862564}
+        - {x: 21.768463, y: -34.862564}
+        - {x: 22.768463, y: -33.862564}
+        - {x: 22.768463, y: 29.137436}
+        - {x: 20.768463, y: 36.137436}
+    - name: kevin outro_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 208
+        width: 157
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.829407, y: 37.899467}
+        - {x: -42.829407, y: 23.899467}
+        - {x: -42.829407, y: -25.100533}
+        - {x: -21.829407, y: -36.100533}
+        - {x: 36.170593, y: -36.100533}
+        - {x: 44.170593, y: -13.100533}
+        - {x: 44.170593, y: 24.899467}
+        - {x: 40.170593, y: 37.899467}
+    - name: kevin outro_7
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 199
+        width: 253
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.26257, y: 38.471123}
+        - {x: -69.26257, y: 27.471123}
+        - {x: -69.26257, y: -36.528877}
+        - {x: 69.73743, y: -36.528877}
+        - {x: 69.73743, y: 34.471123}
+        - {x: 46.737427, y: 38.471123}
+    - name: kevin outro_8
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 184
+        width: 455
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.4209, y: -26.742783}
+        - {x: 108.4209, y: -34.742783}
+        - {x: 117.4209, y: -38.742783}
+        - {x: 126.4209, y: -23.742783}
+        - {x: 126.4209, y: 44.257217}
+        - {x: -124.5791, y: 44.257217}
+        - {x: -124.5791, y: -42.742783}
+        - {x: 62.4209, y: -42.742783}
+        - {x: 96.4209, y: -37.742783}
+        - {x: 96.4209, y: -30.742783}
+        - {x: 107.4209, y: -19.742783}
+        - {x: 105.4209, y: -21.742783}
+    - name: kevin outro_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 141
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -39.095722}
+        - {x: 33, y: -39.095722}
+        - {x: 39, y: -32.095722}
+        - {x: 39, y: 39.904278}
+        - {x: -39, y: 39.904278}
+        - {x: -39, y: -39.095722}
+        - {x: -6, y: -39.095722}
+        - {x: 1, y: -31.095722}
+        - {x: 2, y: -21.095722}
+        - {x: 3, y: -32.095722}
+    - name: kevin outro_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 27
+        width: 261
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.00427, y: 38.285027}
+        - {x: -71.00427, y: -36.714973}
+        - {x: 72.99573, y: -36.714973}
+        - {x: 72.99573, y: 32.285027}
+        - {x: 64.99573, y: 38.285027}
+    - name: kevin outro_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 27
+        width: 225
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.3925, y: 31.785027}
+        - {x: -61.3925, y: 27.785027}
+        - {x: -61.3925, y: -29.214973}
+        - {x: -58.3925, y: -30.214973}
+        - {x: 62.6075, y: -30.214973}
+        - {x: 62.6075, y: 25.785027}
+        - {x: 50.6075, y: 31.785027}
+    - name: kevin outro_12
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 33
+        width: 79
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.69625854, y: 35.570587}
+        - {x: -21.303741, y: 19.570587}
+        - {x: -21.303741, y: -35.429413}
+        - {x: 22.696259, y: -35.429413}
+        - {x: 22.696259, y: 31.570587}
+        - {x: 21.696259, y: 35.570587}
+    - name: kevin outro_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 27
+        width: 281
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.05081, y: -31.714973}
+        - {x: 78.05081, y: -8.714973}
+        - {x: 78.05081, y: 33.285027}
+        - {x: -76.94919, y: 33.285027}
+        - {x: -76.94919, y: -29.714973}
+        - {x: -69.94919, y: -31.714973}
+        - {x: -12.949188, y: -31.714973}
+        - {x: -10.949188, y: -25.714973}
+        - {x: -9.949188, y: -18.714973}
+        - {x: -7.949188, y: -31.714973}
+    - name: kevin outro_14
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 0
+        width: 407
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.47168, y: 44}
+        - {x: -104.52832, y: 44}
+        - {x: -111.52832, y: 37}
+        - {x: -111.52832, y: -36}
+        - {x: -85.52832, y: -42}
+        - {x: -77.52832, y: -44}
+        - {x: 103.47168, y: -44}
+        - {x: 112.47168, y: -27}
+        - {x: 112.47168, y: 33}
+    - name: kevin outro_15
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 4
+        width: 326
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.9845, y: 2.1903763}
+        - {x: 59.984497, y: 1.1903763}
+        - {x: 55.984497, y: 1.1903763}
+        - {x: 57.984497, y: 0.19037628}
+        - {x: 56.984497, y: 7.1903763}
+        - {x: 60.984497, y: 15.190376}
+        - {x: 58.984497, y: 38.190376}
+        - {x: -89.0155, y: 38.190376}
+        - {x: -89.0155, y: -28.809624}
+        - {x: -59.015503, y: -37.809624}
+        - {x: 5.984497, y: -37.809624}
+        - {x: 83.9845, y: -23.809624}
+        - {x: 89.9845, y: -14.809624}
+        - {x: 89.9845, y: 1.1903763}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
