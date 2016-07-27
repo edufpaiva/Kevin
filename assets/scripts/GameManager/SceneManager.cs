@@ -40,4 +40,18 @@ public class SceneManager : MonoBehaviour {
 
     }
 
+    public void SetMusic(int numeroDaMusica){
+        for (int i = 1; i < musicas.Length; i++)
+        {
+            if (numeroDaMusica == i)
+            {
+                musicas[i].Play();
+            }
+            else {
+                musicas[i].Stop();
+            }
+            
+        }
+    }
+
 }

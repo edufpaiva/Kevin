@@ -25,3 +25,5 @@ EditorBuildSettings:
     path: assets/Scenes/Fase03.unity
   - enabled: 1
     path: assets/Scenes/Fase04.unity
+  - enabled: 1
+    path: assets/Scenes/Intro.unity
