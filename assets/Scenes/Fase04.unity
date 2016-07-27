@@ -126690,6 +126690,14 @@ Prefab:
       propertyPath: m_Name
       value: QuerSair
       objectReference: {fileID: 0}
+    - target: {fileID: 11450250, guid: 6cf93c46698b92f4eb16adcf6dcb5014, type: 2}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11491434, guid: 6cf93c46698b92f4eb16adcf6dcb5014, type: 2}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6cf93c46698b92f4eb16adcf6dcb5014, type: 2}
   m_IsPrefabParent: 0
