@@ -245,7 +245,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -307,20 +306,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!82 &1411266298 stripped
-AudioSource:
-  m_PrefabParentObject: {fileID: 8272640, guid: cafc2ac8d1dc2e941894a7ced6fe1be3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1535610279}
---- !u!82 &1411266299 stripped
-AudioSource:
-  m_PrefabParentObject: {fileID: 8286664, guid: cafc2ac8d1dc2e941894a7ced6fe1be3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1535610279}
 --- !u!1001 &1535610279
 Prefab:
   m_ObjectHideFlags: 0
@@ -330,7 +318,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
       propertyPath: musicas.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 417870, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
       propertyPath: m_LocalPosition.x
@@ -364,14 +352,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
-      propertyPath: musicas.Array.data[0]
-      value: 
-      objectReference: {fileID: 1411266299}
-    - target: {fileID: 11415528, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
-      propertyPath: musicas.Array.data[1]
-      value: 
-      objectReference: {fileID: 1411266298}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cafc2ac8d1dc2e941894a7ced6fe1be3, type: 2}
   m_IsPrefabParent: 0
@@ -458,7 +438,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 779933001}
   m_Father: {fileID: 0}
