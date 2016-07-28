@@ -6,11 +6,17 @@ public class Cronometro : MonoBehaviour {
     private int numeroFase;
 	// Use this for initialization
 	void Start () {
-        
-        numeroFase = GameManager.Instance.GetNumeroDaFase();
-        if (numeroFase < 1) {
-            Start();
+        try
+        {
+            numeroFase = GameManager.Instance.GetNumeroDaFase();
         }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
+        
+        
 
 
     }
