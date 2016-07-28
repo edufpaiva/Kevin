@@ -17,4 +17,11 @@ public class Botoes : MonoBehaviour {
         GameManager.Instance.GetComponent<SceneManager>().StopMusic(i);
     }
 
+    public void SetNumeroDaProximaFase() {
+        GameManager.Instance.SetNumeroDaFase(GameManager.Instance.GetNumeroDaFase() + 1);
+    }
+
+    public void SetNumeroDaProximaFase(int numeroDaFase) {
+        GameManager.Instance.SetNumeroDaFase(numeroDaFase);
+    }
 }

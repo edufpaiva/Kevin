@@ -5,7 +5,16 @@ public class NumeroDaFase : MonoBehaviour {
     public int numeroDaFase;
 
     void Awake() {
-        GameManager.Instance.SetNumeroDaFase(numeroDaFase);
+        try
+        {
+            GameManager.Instance.SetNumeroDaFase(numeroDaFase);
+        }
+        catch (System.Exception)
+        {
+            //Awake();
+            throw;
+        }
+        
         
         
 
