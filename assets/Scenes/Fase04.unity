@@ -7511,7 +7511,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25940,7 +25940,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30844,7 +30844,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300004, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -45040,7 +45040,7 @@ MonoBehaviour:
   altura: 1.5
   lateral: 0
   espeto: {fileID: 750122500}
-  timer: 1
+  timer: 0
 --- !u!82 &750122500
 AudioSource:
   m_ObjectHideFlags: 0
@@ -45104,7 +45104,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -51133,7 +51133,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -54254,6 +54254,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1939789025}
     m_Modifications:
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22469408, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -54338,9 +54342,48 @@ Prefab:
       propertyPath: relogio
       value: 
       objectReference: {fileID: 1845853952}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 910598869}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetCena
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430130, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Ending
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &910598868 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 162756, guid: 40fd6f1c807522a42a8a1e8b7bf10fcb, type: 2}
+  m_PrefabInternal: {fileID: 910598867}
+--- !u!114 &910598869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 910598868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5b4c4c561b4f64ab96f1dc3a151301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910898843
 GameObject:
   m_ObjectHideFlags: 0
@@ -69135,7 +69178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417926, guid: 3ce1d223f46b4424ebb5cefe127072fb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -25.01
+      value: -25.25
       objectReference: {fileID: 0}
     - target: {fileID: 417926, guid: 3ce1d223f46b4424ebb5cefe127072fb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -69159,7 +69202,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417926, guid: 3ce1d223f46b4424ebb5cefe127072fb, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 11480694, guid: 3ce1d223f46b4424ebb5cefe127072fb, type: 2}
       propertyPath: mCanvas.Array.data[0]
@@ -88728,7 +88771,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -93241,7 +93284,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -102707,7 +102750,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -127174,7 +127217,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -429206427
+  m_SortingLayerID: -1500883891
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300002, guid: 9f104fbab0e0f3e438f67c17bc81f88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
