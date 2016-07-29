@@ -35,11 +35,11 @@ public class Estrelas : MonoBehaviour
                     }
                     if (i==1)
                     {
-                        Invoke("tempEstrela2", tempInvok + 1f);
+                        Invoke("tempEstrela2", tempInvok + 0.5f);
                     }
                     if (i==2)
                     {
-                        Invoke("tempEstrela3", tempInvok + 2f);
+                        Invoke("tempEstrela3", tempInvok + 1f);
                     }
                 }
             }
@@ -54,11 +54,11 @@ public class Estrelas : MonoBehaviour
             }
             if (tempo <= tempo2star && tempo != 0)
             {
-                Invoke("tempEstrela2", tempInvok+1f);
+                Invoke("tempEstrela2", tempInvok+0.5f);
             }
             if (tempo <= tempo3star && tempo != 0)
             {
-                Invoke("tempEstrela3", tempInvok+2f);
+                Invoke("tempEstrela3", tempInvok+1f);
             }
         }
     }
