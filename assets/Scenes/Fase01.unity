@@ -107587,6 +107587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce9f86e63f5172c4dbf5d0aeff21fdfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tempInvok: 0
   Fasenum: 1
   tempo2star: 15
   tempo3star: 12

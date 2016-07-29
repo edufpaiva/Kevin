@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Estrelas : MonoBehaviour
 {
-
+    public float tempInvok;
     public int Fasenum;
     public int tempo2star;
     public int tempo3star;
@@ -28,7 +28,19 @@ public class Estrelas : MonoBehaviour
             {
                 for (int i = 0; i < stars.Length; i++)
                 {
-                    stars[i].SetActive(true);
+                    if (i==0)
+                    {
+                        Invoke("tempEstrela1", tempInvok);
+
+                    }
+                    if (i==1)
+                    {
+                        Invoke("tempEstrela2", tempInvok + 1f);
+                    }
+                    if (i==2)
+                    {
+                        Invoke("tempEstrela3", tempInvok + 2f);
+                    }
                 }
             }
         }
@@ -37,18 +49,31 @@ public class Estrelas : MonoBehaviour
         {
             if (tempo > 0)
             {
-                stars[0].SetActive(true);
+                Invoke("tempEstrela1", tempInvok);
 
             }
             if (tempo <= tempo2star && tempo != 0)
             {
-                stars[1].SetActive(true);
+                Invoke("tempEstrela2", tempInvok+1f);
             }
             if (tempo <= tempo3star && tempo != 0)
             {
-                stars[2].SetActive(true);
+                Invoke("tempEstrela3", tempInvok+2f);
             }
         }
+    }
+
+    void tempEstrela1 ()
+    {
+        stars[0].SetActive(true);
+    }
+    void tempEstrela2 ()
+    {
+        stars[1].SetActive(true);
+    }
+    void tempEstrela3()
+    {
+        stars[2].SetActive(true);
     }
 
 }
